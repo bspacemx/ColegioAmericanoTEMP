@@ -1129,3 +1129,108 @@ blockquote {
 #footer2-1b .mbr-section-text {
   color: #fff;
 }
+#menu-2f .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-2f .navbar-caption {
+  color: #ffffff;
+}
+#menu-2f .navbar-toggler {
+  color: #2c3e50;
+}
+#menu-2f .close-icon::before,
+#menu-2f .close-icon::after {
+  background-color: #2c3e50;
+}
+#menu-2f .link,
+#menu-2f .dropdown-item {
+  color: #2c3e50;
+}
+#menu-2f .link {
+  font-size: 0.875rem;
+}
+#menu-2f .dropdown-item,
+#menu-2f .nav-dropdown-sm .link {
+  font-size: 0.948rem;
+}
+#menu-2f .link:hover,
+#menu-2f .link:focus {
+  color: #3498db;
+}
+#menu-2f .dropdown-item:hover::before,
+#menu-2f .dropdown-item:focus::before {
+  background: #3498db;
+}
+#menu-2f .dropdown-item:hover,
+#menu-2f .dropdown-item:focus {
+  color: #2c3e50;
+}
+#menu-2f .link[aria-expanded="true"],
+#menu-2f .dropdown-menu {
+  background: #e6e6e6;
+}
+#menu-2f .nav-dropdown-sm .link:focus,
+#menu-2f .nav-dropdown-sm .link:hover,
+#menu-2f .nav-dropdown-sm .dropdown-item:focus,
+#menu-2f .nav-dropdown-sm .dropdown-item:hover {
+  background: #f7f7f7!important;
+}
+#menu-2f .navbar,
+#menu-2f .nav-dropdown-sm,
+#menu-2f .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-2f .nav-dropdown-sm .dropdown-menu {
+  background: #ffffff;
+}
+#menu-2f .bg-color.transparent .link {
+  color: #2c3e50;
+  transition: none;
+}
+#menu-2f .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-2f .bg-color.transparent.opened .link:hover,
+#menu-2f .bg-color.transparent.opened .link:focus {
+  color: #3498db;
+}
+#menu-2f .link[aria-expanded="true"],
+#menu-2f .dropdown-item[aria-expanded="true"] {
+  color: #3498db!important;
+}
+#testimonials3-2k .mbr-section-text {
+  font-size: 16px;
+}
+#footer2-2g .mbr-section-text {
+  color: #fff;
+}
+#header1-2h .lead {
+  color: #93a3a7;
+  font-style: italic;
+}
+#header1-2h .mbr-section-title {
+  text-align: center;
+}
+#header1-2h .mbr-section-text {
+  text-align: center;
+}
+#header7-2i .mbr-section-subtitle {
+  text-transform: uppercase;
+  color: #9fa3a7;
+}
+#header7-2i .mbr-section-text {
+  color: #323232;
+}
+#header7-2i .mbr-section-title {
+  color: #242424;
+  font-weight: bold;
+  font-size: 60px;
+}
+#features16-2j .mbr-section-title {
+  font-weight: 700;
+  letter-spacing: .5vw;
+  text-transform: uppercase;
+}
+#features16-2j .mbr-section-subtitle {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+}
