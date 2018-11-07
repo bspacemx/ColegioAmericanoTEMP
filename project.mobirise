@@ -35,7 +35,7 @@
     "cookiesAlert": "",
     "gdpr": "",
     "siteUrl": "undefined",
-    "uniqCompNum": 85,
+    "uniqCompNum": 87,
     "versionPublish": "4.8.6"
   },
   "pages": {
@@ -109,7 +109,7 @@
             "showBrand": false,
             "hideButtons": false,
             "sticky": true,
-            "collapsed": true,
+            "collapsed": false,
             "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": 0.875,
@@ -197,10 +197,10 @@
           "title4": "Labor",
           "title5": "Integrantes",
           "title6": "Reflexiones",
-          "tabTitle": "<li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link text-black active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header9-6\" aria-expanded=\"true\">Nosotros</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header9-6\" aria-expanded=\"false\">Nuestros eventos</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header9-6\" aria-expanded=\"false\">GAlería</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header9-6\" aria-expanded=\"false\">Labor</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header9-6\" aria-expanded=\"false\">integrantes</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header9-6\" aria-expanded=\"true\">reflexiones</a></li>",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link text-black active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header9-6\" aria-expanded=\"true\">Nosotros</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link text-black\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header9-6\" aria-expanded=\"false\">Nuestros eventos</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header9-6\" aria-expanded=\"false\">GAlería</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header9-6\" aria-expanded=\"false\">Labor</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header9-6\" aria-expanded=\"false\">integrantes</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header9-6\" aria-expanded=\"false\">reflexiones</a></li>",
           "media11": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/cap-iso-1000x1000.png",
+              "src": "@PROJECT_PATH@/assets/images/nosotros-691x515.jpg",
               "class": "card-img-top",
               "active": true,
               "link": "",
@@ -210,7 +210,7 @@
           },
           "media12": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/cap-iso-1000x1000.png",
+              "src": "@PROJECT_PATH@/assets/images/eventos-691x515.jpg",
               "class": "card-img-top",
               "active": true,
               "link": "",
@@ -220,7 +220,7 @@
           },
           "media13": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/cap-iso-1000x1000.png",
+              "src": "@PROJECT_PATH@/assets/images/galeria-691x515.jpg",
               "class": "card-img-top",
               "active": true,
               "link": "",
@@ -230,7 +230,7 @@
           },
           "media14": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/cap-iso-1000x1000.png",
+              "src": "@PROJECT_PATH@/assets/images/labor-691x515.jpg",
               "class": "card-img-top",
               "active": true,
               "link": "",
@@ -240,7 +240,7 @@
           },
           "media15": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/cap-iso-1000x1000.png",
+              "src": "@PROJECT_PATH@/assets/images/integrantes-691x515.jpg",
               "class": "card-img-top",
               "active": true,
               "link": "",
@@ -250,7 +250,7 @@
           },
           "media16": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/cap-iso-1000x1000.png",
+              "src": "@PROJECT_PATH@/assets/images/reflexiones-691x515.jpg",
               "class": "card-img-top",
               "active": true,
               "link": "",
@@ -265,7 +265,7 @@
               "name": "bald-male",
               "family": "icon54",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "",
               "size": 0,
               "color": "#f39c12"
             }
@@ -277,7 +277,7 @@
               "name": "search-calendar",
               "family": "icon54-v3",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "",
               "size": 0,
               "color": "#f39c12"
             }
@@ -289,7 +289,7 @@
               "name": "photo-library",
               "family": "icon54",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "",
               "size": 0,
               "color": "#f39c12"
             }
@@ -301,7 +301,7 @@
               "name": "thumbs-up",
               "family": "icon54",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "",
               "size": 0,
               "color": "#f39c12"
             }
@@ -313,7 +313,7 @@
               "name": "group-2",
               "family": "icon54-v2",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "",
               "size": 0,
               "color": "#f39c12"
             }
@@ -325,12 +325,12 @@
               "name": "heart-6",
               "family": "icon54-v3",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "",
               "size": 0,
               "color": "#f39c12"
             }
           },
-          "text1": "Somos un grupo de padres de familia que pertenecemos al comite de prevencion integral del Colegio Americano de Puebla.&nbsp;<br><b>Nuestra misión<br></b>Promover la integracion familiar para fortalecer la relacion entre padres e hijos.&nbsp;<br><b>Nuestra visión<br></b>Ser una<i> </i>comunidad responsable e informada para prevenir las adicciones.&nbsp;<br>",
+          "text1": "Somos un grupo de padres de familia que pertenecemos al comite de prevencion Integral de adicciones del Colegio Americano de Puebla.&nbsp;<br><b>Nuestra misión<br></b>Promover la integracion familiar para fortalecer la relacion entre padres e hijos.&nbsp;<br><b>Nuestra visión<br></b>Ser una<i> </i>comunidad responsable e informada para prevenir las adicciones.&nbsp;<br>",
           "text2": "En esta sección podrás encontrar todo lo que necesitas saber para asistir a nuestros eventos.<br><br><b><i><a href=\"eventoscap.html#header11-v\">Ver eventos &gt;</a></i></b>",
           "text3": "Encuentra las fotos de los eventos del año<br><br><b><i><a href=\"galeroacap.html#content5-13\">Ver Galería&nbsp;&gt;</a></i></b>",
           "text4": "Nuestros hijos son lo más importante, por ello te invitamos a leer la siguiente sección.<br><br><b><i><a href=\"index.html#header9-6\">Ver sección&nbsp;&gt;</a></i></b>",
@@ -341,144 +341,8 @@
             "Tema"
           ],
           "_name": "header9",
-          "_anchor": "header9-6"
-        },
-        {
-          "_styles": {
-            ".card-block p": {
-              "font-size": "15px"
-            },
-            ".mbr-section-title": {
-              "color": "#ffffff"
-            },
-            ".card-footer > div": {
-              "color": "#ffffff"
-            },
-            ".card-footer > small": {
-              "color": "#3498db"
-            },
-            ".card-block P": {
-              "color": "#ffffff"
-            }
-          },
-          "_params": {
-            "showTitle": true,
-            "showSubtitle": false,
-            "showImages": true,
-            "showName": true,
-            "showBio": true,
-            "autoplay": false,
-            "timeout": 5,
-            "paddingTop": 2,
-            "paddingBottom": 1,
-            "showBullets": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/flight-mountains-sky-flying.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#302c59",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#000",
-            "overlayOpacity": 0.5,
-            "visibleSlides": "3",
-            "slides": [
-              {
-                "active": false,
-                "text": "<p>“A major turning point in the history of early philosophical science was the controversial”</p>",
-                "authorName": "Adriana Rocha",
-                "authorBio": "TESTIMONIO",
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/face1.jpg",
-                    "class": "img-circle",
-                    "link": "",
-                    "height": 160,
-                    "width": 160,
-                    "active": true,
-                    "alt": "",
-                    "title": ""
-                  }
-                }
-              },
-              {
-                "active": false,
-                "text": "<p>“A major tturning point in the history of early philosophical science was the controversial ”</p>",
-                "authorName": "Abanoub S.",
-                "authorBio": "USER",
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/face2.jpg",
-                    "class": "img-circle",
-                    "link": "",
-                    "height": 160,
-                    "width": 160,
-                    "active": true,
-                    "alt": "",
-                    "title": ""
-                  }
-                }
-              },
-              {
-                "active": true,
-                "text": "<p>“A major tturning point in the history of early philosophical science was the controversial ”</p>",
-                "authorName": "Susana A.",
-                "authorBio": "TESTIMONIO",
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/face3.jpg",
-                    "class": "img-circle",
-                    "link": "",
-                    "height": 160,
-                    "width": 160,
-                    "active": true,
-                    "alt": "",
-                    "title": ""
-                  }
-                }
-              }
-            ],
-            "controlBgLeft": "@PROJECT_PATH@/assets/images/left.png",
-            "controlBgRight": "@PROJECT_PATH@/assets/images/right.png"
-          },
-          "title": "<b>Testimonios</b>",
-          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
-          "alias": "colorm/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "testimonials2",
-          "_anchor": "testimonials2-e"
-        },
-        {
-          "_params": {
-            "showText": false,
-            "paddingTop": "0",
-            "paddingBottom": 4,
-            "bgColor": "#302c59"
-          },
-          "media": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/image1.jpg",
-              "width": 1400
-            },
-            "video": {
-              "active": true,
-              "class": "mbr-embedded-video",
-              "src": "https://www.youtube.com/watch?v=sSbLNLv331M",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "video2",
-          "_anchor": "video2-19"
+          "_anchor": "header9-6",
+          "_customCSS": ""
         },
         {
           "_styles": {
@@ -574,7 +438,7 @@
             "showBrand": false,
             "hideButtons": false,
             "sticky": true,
-            "collapsed": true,
+            "collapsed": false,
             "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": 0.875,
@@ -617,7 +481,7 @@
             "animText3": "Convive",
             "typeSpeed": 60,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/11-2.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/headereventos02-2000x1399.jpg",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#2e2e2e",
@@ -626,8 +490,8 @@
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#000",
-            "overlayOpacity": 0.1
+            "overlayColor": "#302c59",
+            "overlayOpacity": "0.8"
           },
           "title": "Nuestros eventos.<br>",
           "text": "Para toda la familia.<br>Conoce los eventos que tendremos este año.",
@@ -706,11 +570,7 @@
           "_customCSS": ""
         },
         {
-          "_styles": {
-            ".mbr-section-text": {
-              "text-align": "right"
-            }
-          },
+          "_styles": {},
           "_params": {
             "showImages": true,
             "showNumber": true,
@@ -723,7 +583,7 @@
             "paddingTop": "0",
             "paddingBottom": "0",
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/features/fl2.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -746,17 +606,17 @@
               "title": ""
             }
           },
-          "title1": "Family Challenge",
+          "title1": "<b>Family </b>Challenge",
           "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "La diversión sana con las diferentes edades que integran una familia es posible, siempre y cuando se tenga la disposición y el compromiso en cada uno de los integrantes.\nEl Objetivo es integrar a la comunidad CAP en una actividad deportiva, de esparcimiento, donde todos los integrantes de la familia pasen un rato agradable, fortaleciendo su habilidad de comunicación y lazos afectivos; con la capacidad de desarrollar estrategias en su participación. En este evento, cada familia es un equipo y juntos llegan a la meta, en el recorrido encuentran retos, laberintos, túneles, agua, etc. Así es como en familia podemos sentar bases sólidas para la felicidad y éxito de nuestros hijos.<br><br><b> Lo que necesitan para participar es inscribirse, usar su ropa deportiva favorita y muchas ganas de divertirse.<br></b><br>Contamos con el valioso apoyo del departamento de Deportes bajo la dirección del Prof. José Manuel González y su equipo de profesores, ellos están a cargo de la logística del evento; desarrollan cada estación y califican la participación de cada familia. El Comité de Prevención Integral, eje padres de familia les proporciona un área de esparcimiento y de ricos alimentos para desayunar. Cada vez que compran en nuestra tienda contribuyen a que el Comité de Prevención Integral\ncontinúe realizando las actividades de convivencia familiar.&nbsp;<br>",
+          "caption1": "La diversión sana con las diferentes edades que integran una familia es posible, siempre y cuando se tenga la disposición y el compromiso en cada uno de los integrantes. El Objetivo es integrar a la comunidad CAP en una actividad deportiva, de esparcimiento, donde todos los integrantes de la familia pasen un rato agradable, fortaleciendo su habilidad de comunicación y lazos afectivos; con la capacidad de desarrollar estrategias en su participación. En este evento, cada familia es un equipo y juntos llegan a la meta, en el recorrido encuentran retos, laberintos, túneles, agua, etc. Así es como en familia podemos sentar bases sólidas para la felicidad y éxito de nuestros hijos.\n<br>\n<br><b>Lo que necesitan para participar es inscribirse, usar su ropa deportiva favorita y muchas ganas de divertirse.\n<br></b>\n<br>Contamos con el valioso apoyo del departamento de Deportes bajo la dirección del Prof. José Manuel González y su equipo de profesores, ellos están a cargo de la logística del evento; desarrollan cada estación y califican la participación de cada familia. El Comité de Prevención Integral, eje padres de familia les proporciona un área de esparcimiento y de ricos alimentos para desayunar. Cada vez que compran en nuestra tienda contribuyen a que el Comité de Prevención Integral continúe realizando las actividades de convivencia familiar.&nbsp;",
           "number1": "01",
           "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\">watch now</a>",
           "alias": "colorm/components",
           "_tags": [
             "Tema"
           ],
-          "_name": "features13",
-          "_anchor": "features13-o"
+          "_name": "features14",
+          "_anchor": "features14-2d"
         },
         {
           "_styles": {
@@ -800,7 +660,7 @@
               "title": ""
             }
           },
-          "title1": "Family Fun Run",
+          "title1": "<b>Family </b>Fun Run",
           "subtitle1": "Bootstrap 4 has been noted",
           "caption1": "Correr en familia es posible haciendo equipo, apoyándonos y animándonos los unos a los otros.\nCon esta carrera buscamos integrar a las familias, donde todos los miembros pasen una mañana divertida, fortaleciendo la comunicación y lazos afectivos.\nCada familia es un equipo y juntos llegan a la meta, en el recorrido deben avanzar unidos, un gran reto cuando somos de diferentes edades. Así es como en familia podemos sentar bases sólidas para la felicidad y éxito de nuestros hijos.\n<br>\n<br><b>Para participar se inscriben, usan su ropa deportiva favorita y mucho ánimo.\n<br></b>\n<br>Contamos con el valioso apoyo del departamento de Deportes bajo la dirección del Prof. José Manuel González y su equipo de profesores, ellos están a cargo de la logística del evento; desarrollan el circuito y califican la participación de cada familia.\nAl terminar el circuito, el Comité de Prevención Integral, eje padres de familia, tiene preparado un espacio de entretenimiento con inflables de agua, música y comida para desayunar.\n<br><br><b>Cada vez que compran en nuestra tienda contribuyen a que el Comité de Prevención Integral continúe realizando las actividades de convivencia familiar.&nbsp;</b><br>",
           "number1": "01",
@@ -813,12 +673,7 @@
           "_anchor": "features14-p"
         },
         {
-          "_styles": {
-            ".mbr-section-title": {
-              "font-family": "'Arimo', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Arimo:400,700"
-            }
-          },
+          "_styles": {},
           "_params": {
             "showImages": true,
             "showNumber": true,
@@ -831,7 +686,7 @@
             "paddingTop": "0",
             "paddingBottom": "0",
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/features/fl2.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -854,7 +709,7 @@
               "title": ""
             }
           },
-          "title1": "Fiesta Navideña",
+          "title1": "<b>Fiesta</b> Navideña",
           "subtitle1": "Bootstrap 4 has been noted",
           "caption1": "Una emotiva celebración en familia, cada año los participantes conmovidos por los deseos de paz, amor, unión, comparten gratos momentos. En este evento disfrutan del espíritu navideño con el tradicional encendido del árbol, el coro integrado por niños voluntarios de primaria y sus tradicionales villancicos, el taller de esferas y el muro de los buenos deseos. Una vez más reforzamos la importancia de estar juntos conviviendo en familia fortaleciendo los lazos y la comunicación para formar niños fuertes y seguros para enfrentar los retos de la vida. Desde luego no puede faltar un rico ponche o café y esquites para el frío, unas tradicionales chalupas o tacos y los deliciosos churros. Les invitamos a participar, es una noche llena de música, comida y diversión con el toque de la unión familiar. \n<br>\n<br><b>Para asistir es importante el registro, confirmen la asistencia de su familia. \n<br></b>\n<br><b>Cada vez que compran en nuestra tienda contribuyen a que el Comité de Prevención Integral continúe realizando las actividades de convivencia familiar.&nbsp;</b>",
           "number1": "01",
@@ -863,8 +718,8 @@
           "_tags": [
             "Tema"
           ],
-          "_name": "features13",
-          "_anchor": "features13-r"
+          "_name": "features14",
+          "_anchor": "features14-2e"
         },
         {
           "_styles": {
@@ -908,7 +763,7 @@
               "title": ""
             }
           },
-          "title1": "Campamento Papá y yo",
+          "title1": "<b>Campamento </b>Papá y yo",
           "subtitle1": "Bootstrap 4 has been noted",
           "caption1": "Con estos campamentos promovemos una mayor integración entre padres e hijos, creando grandes lazos a través de un fin de semana inolvidable y de grandes experiencias. Continuamos así con nuestro compromiso para fortalecer la convivencia familiar como herramienta fundamental en la prevención de adicciones.\n<br>Estos campamentos se realizan en espacios adecuados para las actividades, el papá y el hijo juegan juntos y comparten momentos emotivos desde el momento de abordar el autobús.\n<br>\n<br>Para la realización de esta actividad El Comité de Prevención Integral, eje padres de familia, invita cada año a <b>Eduplay, empresa dedicada a la realización de campamentos en sedes cercanas a la Ciudad de Puebla.\n</b><br><br><b>Todo lo relacionado con inscripción, pagos y desarrollo de la actividad corre a cargo de Eduplay. El Comité sólo coordina la invitación y las juntas informativas.&nbsp;</b><br>",
           "number1": "01",
@@ -1211,7 +1066,7 @@
             "showBrand": false,
             "hideButtons": false,
             "sticky": true,
-            "collapsed": true,
+            "collapsed": false,
             "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": 0.875,
@@ -1338,7 +1193,7 @@
             "showBrand": false,
             "hideButtons": false,
             "sticky": true,
-            "collapsed": true,
+            "collapsed": false,
             "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": 0.875,
@@ -1578,7 +1433,7 @@
             "showBrand": false,
             "hideButtons": false,
             "sticky": true,
-            "collapsed": true,
+            "collapsed": false,
             "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": 0.875,
