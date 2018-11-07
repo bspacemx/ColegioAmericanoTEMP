@@ -1,0 +1,2 @@
+# ColegioAmericanoTEMP
+GitHub Pages
