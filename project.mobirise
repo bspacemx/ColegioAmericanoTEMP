@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "American School Foundation",
-    "currentPage": "contactocap.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -36,7 +36,8 @@
     "gdpr": "",
     "siteUrl": "undefined",
     "uniqCompNum": 87,
-    "versionPublish": "4.8.6"
+    "versionPublish": "4.8.6",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -109,7 +110,7 @@
             "showBrand": false,
             "hideButtons": false,
             "sticky": true,
-            "collapsed": false,
+            "collapsed": true,
             "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": 0.875,
@@ -117,7 +118,7 @@
             "fontColor": "#2c3e50",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Inicio</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header9-6\">Nosotros</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Eventos</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features14-n\">Cine bajo las estrellas</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features13-o\">Family Challenge</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features14-p\">Family Fun Run</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features13-r\">Fiesta Navideña</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features14-q\">Campamento Papá y yo</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"galeroacap.html#content5-13\">Galería</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Labor</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"integrantescap.html#team1-18\">Integrantes</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Reflexiones</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#testimonials2-e\">Testimonios</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"contactocap.html#call4-1q\">Contáctanos</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Inicio</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Eventos</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features14-n\">Cine bajo las estrellas</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features13-o\">Family Challenge</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features14-p\">Family Fun Run</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features13-r\">Fiesta Navideña</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features14-q\">Campamento Papá y yo</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"galeroacap.html#content5-13\">Galería</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Labor</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"integrantescap.html#team1-18\">Integrantes</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Reflexiones</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"contactocap.html#call4-1q\">Contáctanos</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -189,7 +190,7 @@
             "overlayOpacity": 0.9
           },
           "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
-          "title": "<br><b>Comité de Prevención de Adicciones</b>",
+          "title": "<b>Comité de Prevención de Adicciones</b>",
           "text": "<a href=\"https://www.cap.edu.mx/\" target=\"_blank\">American School Foundation Puebla / 2018</a>",
           "title1": "¿Quiénes somos?",
           "title2": "Conoce nuestros eventos",
@@ -438,7 +439,7 @@
             "showBrand": false,
             "hideButtons": false,
             "sticky": true,
-            "collapsed": false,
+            "collapsed": true,
             "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": 0.875,
@@ -446,7 +447,7 @@
             "fontColor": "#2c3e50",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Inicio</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header9-6\">Nosotros</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Eventos</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features14-n\">Cine bajo las estrellas</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features13-o\">Family Challenge</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features14-p\">Family Fun Run</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features13-r\">Fiesta Navideña</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features14-q\">Campamento Papá y yo</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"galeroacap.html#content5-13\">Galería</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Labor</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"integrantescap.html#team1-18\">Integrantes</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Reflexiones</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#testimonials2-e\">Testimonios</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"contactocap.html#call4-1q\">Contáctanos</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Inicio</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Eventos</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features14-n\">Cine bajo las estrellas</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features13-o\">Family Challenge</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features14-p\">Family Fun Run</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features13-r\">Fiesta Navideña</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features14-q\">Campamento Papá y yo</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"galeroacap.html#content5-13\">Galería</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Labor</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"integrantescap.html#team1-18\">Integrantes</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Reflexiones</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"contactocap.html#call4-1q\">Contáctanos</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1066,7 +1067,7 @@
             "showBrand": false,
             "hideButtons": false,
             "sticky": true,
-            "collapsed": false,
+            "collapsed": true,
             "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": 0.875,
@@ -1074,7 +1075,7 @@
             "fontColor": "#2c3e50",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Inicio</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header9-6\">Nosotros</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Eventos</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features14-n\">Cine bajo las estrellas</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features13-o\">Family Challenge</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features14-p\">Family Fun Run</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features13-r\">Fiesta Navideña</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features14-q\">Campamento Papá y yo</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"galeroacap.html#content5-13\">Galería</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Labor</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"integrantescap.html#team1-18\">Integrantes</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Reflexiones</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#testimonials2-e\">Testimonios</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"contactocap.html#call4-1q\">Contáctanos</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Inicio</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Eventos</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features14-n\">Cine bajo las estrellas</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features13-o\">Family Challenge</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features14-p\">Family Fun Run</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features13-r\">Fiesta Navideña</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features14-q\">Campamento Papá y yo</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"galeroacap.html#content5-13\">Galería</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Labor</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"integrantescap.html#team1-18\">Integrantes</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Reflexiones</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"contactocap.html#call4-1q\">Contáctanos</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1193,7 +1194,7 @@
             "showBrand": false,
             "hideButtons": false,
             "sticky": true,
-            "collapsed": false,
+            "collapsed": true,
             "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": 0.875,
@@ -1201,7 +1202,7 @@
             "fontColor": "#2c3e50",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Inicio</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header9-6\">Nosotros</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Eventos</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features14-n\">Cine bajo las estrellas</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features13-o\">Family Challenge</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features14-p\">Family Fun Run</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features13-r\">Fiesta Navideña</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features14-q\">Campamento Papá y yo</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"galeroacap.html#content5-13\">Galería</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Labor</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"integrantescap.html#team1-18\">Integrantes</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Reflexiones</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#testimonials2-e\">Testimonios</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"contactocap.html#call4-1q\">Contáctanos</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Inicio</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Eventos</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features14-n\">Cine bajo las estrellas</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features13-o\">Family Challenge</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features14-p\">Family Fun Run</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features13-r\">Fiesta Navideña</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features14-q\">Campamento Papá y yo</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"galeroacap.html#content5-13\">Galería</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Labor</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"integrantescap.html#team1-18\">Integrantes</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Reflexiones</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"contactocap.html#call4-1q\">Contáctanos</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1433,7 +1434,7 @@
             "showBrand": false,
             "hideButtons": false,
             "sticky": true,
-            "collapsed": false,
+            "collapsed": true,
             "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": 0.875,
@@ -1441,7 +1442,7 @@
             "fontColor": "#2c3e50",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Inicio</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header9-6\">Nosotros</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Eventos</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features14-n\">Cine bajo las estrellas</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features13-o\">Family Challenge</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features14-p\">Family Fun Run</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features13-r\">Fiesta Navideña</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features14-q\">Campamento Papá y yo</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"galeroacap.html#content5-13\">Galería</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Labor</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"integrantescap.html#team1-18\">Integrantes</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Reflexiones</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#testimonials2-e\">Testimonios</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"contactocap.html#call4-1q\">Contáctanos</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Inicio</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Eventos</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features14-n\">Cine bajo las estrellas</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features13-o\">Family Challenge</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features14-p\">Family Fun Run</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features13-r\">Fiesta Navideña</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html#features14-q\">Campamento Papá y yo</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"galeroacap.html#content5-13\">Galería</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Labor</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"integrantescap.html#team1-18\">Integrantes</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Reflexiones</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"contactocap.html#call4-1q\">Contáctanos</a></li>",
           "logo": {
             "image": {
               "active": true,
