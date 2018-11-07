@@ -1196,9 +1196,6 @@ blockquote {
 #menu-2f .dropdown-item[aria-expanded="true"] {
   color: #3498db!important;
 }
-#testimonials3-2k .mbr-section-text {
-  font-size: 16px;
-}
 #footer2-2g .mbr-section-text {
   color: #fff;
 }
@@ -1233,4 +1230,7 @@ blockquote {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #fff;
+}
+#testimonials3-2k .mbr-section-text {
+  font-size: 16px;
 }
