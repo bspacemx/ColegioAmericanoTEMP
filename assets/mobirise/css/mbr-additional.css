@@ -785,11 +785,6 @@ blockquote {
 #menu-5 .dropdown-item[aria-expanded="true"] {
   color: #5a2587!important;
 }
-#animated-bg1-45 .display-1 {
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 40px;
-}
 #footer2-x .mbr-section-text {
   color: #fff;
 }
@@ -809,6 +804,11 @@ blockquote {
 }
 #header3-43 .btn {
   font-size: 12px;
+}
+#animated-bg1-45 .display-1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 40px;
 }
 
 #menu-1a .hide-buttons .nav-btn {
