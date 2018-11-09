@@ -45,7 +45,7 @@
     "cookiesAlert": "",
     "gdpr": "",
     "siteUrl": "undefined",
-    "uniqCompNum": 155,
+    "uniqCompNum": 156,
     "versionPublish": "4.8.6",
     "screenshot": "screenshot.png"
   },
@@ -190,67 +190,17 @@
             }
           },
           "_params": {
-            "showTitle": false,
-            "showText": false,
-            "showButtons": false,
-            "buttonAlign": "left",
-            "showArrow": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/headerhome02-3-1574x1272.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#16a085",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
-            },
-            "overlay": false,
-            "overlayColor": "#16a085",
-            "overlayOpacity": 0.9
-          },
-          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
-          "title": "BEAUTIFUL<br>MOBILE<br>WEBSITES",
-          "text": "Develop fully responsive, mobile-ready websites",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\">download it</a>",
-          "alias": "colorm/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-4a",
-          "_customCSS": ""
-        },
-        {
-          "_styles": {
-            ".display-1": {
-              "font-weight": "700"
-            },
-            ".lead": {
-              "color": "#fff",
-              "text-transform": "uppercase",
-              "margin-bottom": "0"
-            },
-            ".mbr-section-title": {
-              "text-align": "center"
-            },
-            ".mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            ".btn": {
-              "font-size": "12px"
-            }
-          },
-          "_params": {
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "buttonAlign": "center",
-            "showArrow": false,
+            "showImage": true,
+            "showArrow": true,
+            "imageSize": "98",
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/comite-1-2000x1188.jpg",
             "parallax": true,
             "bgColorRadio": false,
-            "bgColor": "#16a085",
+            "bgColor": "#e74c3c",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
@@ -259,17 +209,37 @@
             "overlayColor": "#462562",
             "overlayOpacity": 0.9
           },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/headerhome-1-1400x468.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header4",
+              "link": "",
+              "size": 0
+            }
+          },
           "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
           "title": "Comité de Prevención,<br>Padres de familia<br><br>",
-          "text": "<br><br>Bienvenidos al panel",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary\" href=\"nosotros.html#header1-2h\" data-toolbar=\"-mbrBtnMove\">Nosotros</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"eventoscap.html#header11-v\" data-toolbar=\"-mbrBtnMove\">Eventos</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"galeroacap.html#content5-13\" data-toolbar=\"-mbrBtnMove\">Galería</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">Blog</a> ",
+          "text": "<br><br><br><br><br><br><br>Bienvenidos al panel",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Nosotros</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Eventos</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Galería</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Blog</a>",
           "alias": "colorm/components",
           "_tags": [
             "Tema"
           ],
-          "_name": "header3",
-          "_anchor": "header3-43",
-          "_customCSS": ""
+          "_name": "header4",
+          "_anchor": "header4-4b"
         },
         {
           "_styles": {
