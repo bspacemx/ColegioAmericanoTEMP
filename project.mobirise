@@ -233,7 +233,7 @@
           "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
           "title": "Comité de Prevención,<br>Padres de familia<br><br>",
           "text": "<br><br><br><br><br><br><br>Bienvenidos al panel",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary\" href=\"nosotros.html\" data-toolbar=\"-mbrBtnMove\">Nosotros</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"nosotros.html\" data-toolbar=\"-mbrBtnMove\">Eventos</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"galeroacap.html\" data-toolbar=\"-mbrBtnMove\">Galería</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">Blog</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary\" href=\"nosotros.html\" data-toolbar=\"-mbrBtnMove\">Nosotros</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"eventoscap.html\" data-toolbar=\"-mbrBtnMove\">Eventos</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"galeroacap.html\" data-toolbar=\"-mbrBtnMove\">Galería</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">Blog</a>",
           "alias": "colorm/components",
           "_tags": [
             "Tema"
