@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Comite Integral",
-    "currentPage": "galeriacap.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "unicore",
       "title": "Unicore",
@@ -82,7 +82,7 @@
           },
           "title": "Comité de Prevención Integral del Colegio",
           "text": "Nam tellus turpis blandit et ligula dolorum minus fugit in ipsum semper massa magna eget nunc iaculis nunc.",
-          "buttons": "<a data-app-btn=\"true\" href=\"nosotros.html\" class=\"btn mbr-title-font btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\">Nosotros</a> <a data-app-btn=\"true\" href=\"eventoscap.html\" class=\"btn mbr-title-font btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\">Eventos</a> <a data-app-btn=\"true\" href=\"galeriacap.html\" class=\"btn mbr-title-font btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\">Galería</a> <a data-app-btn=\"true\" href=\"index.html\" class=\"btn mbr-title-font btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\">Reflexiones</a>  ",
+          "buttons": "<a data-app-btn=\"true\" href=\"nosotros.html\" class=\"btn mbr-title-font btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\">Nosotros</a> <a data-app-btn=\"true\" href=\"eventoscap.html\" class=\"btn mbr-title-font btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\">Eventos</a> <a data-app-btn=\"true\" href=\"galeria.html#parallax1-1y\" class=\"btn mbr-title-font btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\">Galería</a> <a data-app-btn=\"true\" href=\"index.html\" class=\"btn mbr-title-font btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\">Reflexiones</a>  ",
           "alias": "unicore/components",
           "_tags": [
             "Tema"
@@ -131,7 +131,7 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/11.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#222",
@@ -171,7 +171,7 @@
             "fontName": {},
             "fontColor": "#03a9f4"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Inicio</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">secciones</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"nosotros.html\">Nosotros</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html\">Eventos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"galeriacap.html\">Galería</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Blog</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"https://mobirise.com/\">For Windows</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger mbr-title-font\" href=\"https://mobirise.com/\">For Mac</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Inicio</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">secciones</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"nosotros.html\">Nosotros</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html\">Eventos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"galeria.html#parallax1-1y\">Galería</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Blog</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"https://mobirise.com/\">For Windows</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger mbr-title-font\" href=\"https://mobirise.com/\">For Mac</a></li>",
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
           "_tags": [
             "Tema"
@@ -214,7 +214,7 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/11.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#765ca6",
@@ -255,7 +255,7 @@
             "fontName": {},
             "fontColor": "#03a9f4"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Inicio</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">secciones</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"nosotros.html\">Nosotros</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html\">Eventos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"galeriacap.html\">Galería</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Blog</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"https://mobirise.com/\">For Windows</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger mbr-title-font\" href=\"https://mobirise.com/\">For Mac</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Inicio</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">secciones</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"nosotros.html\">Nosotros</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html\">Eventos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"galeria.html#parallax1-1y\">Galería</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Blog</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"https://mobirise.com/\">For Windows</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger mbr-title-font\" href=\"https://mobirise.com/\">For Mac</a></li>",
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
           "_tags": [
             "Tema"
@@ -319,7 +319,7 @@
             "bgImageRadio": false,
             "paddingTop": 2,
             "paddingBottom": 2,
-            "bgImage": "@PROJECT_PATH@/assets/images/11.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -419,7 +419,7 @@
             "paddingTop": "0",
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/11.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -450,7 +450,7 @@
             "bgImageRadio": false,
             "paddingTop": "4",
             "paddingBottom": 2,
-            "bgImage": "@PROJECT_PATH@/assets/images/11.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#39bfc3",
@@ -550,7 +550,7 @@
             "paddingTop": "0",
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/11.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#39bfc3",
@@ -581,7 +581,7 @@
             "bgImageRadio": false,
             "paddingTop": "4",
             "paddingBottom": 2,
-            "bgImage": "@PROJECT_PATH@/assets/images/11.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#d83a70",
@@ -681,7 +681,7 @@
             "paddingTop": "0",
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/11.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#d83a70",
@@ -712,7 +712,7 @@
             "bgImageRadio": false,
             "paddingTop": "4",
             "paddingBottom": 2,
-            "bgImage": "@PROJECT_PATH@/assets/images/11.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#765ca6",
@@ -812,7 +812,7 @@
             "paddingTop": "1",
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/11.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#765ca6",
@@ -843,7 +843,7 @@
             "bgImageRadio": false,
             "paddingTop": "4",
             "paddingBottom": 2,
-            "bgImage": "@PROJECT_PATH@/assets/images/11.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#3a3a3a",
@@ -943,7 +943,7 @@
             "paddingTop": "0",
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/11.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#3a3a3a",
@@ -977,7 +977,7 @@
             "bgImageRadio": false,
             "paddingTop": 2,
             "paddingBottom": 2,
-            "bgImage": "@PROJECT_PATH@/assets/images/11.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#29d9c2",
@@ -1009,7 +1009,7 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/11.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#765ca6",
@@ -1050,7 +1050,7 @@
             "fontName": {},
             "fontColor": "#03a9f4"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Inicio</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">secciones</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"nosotros.html\">Nosotros</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html\">Eventos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"galeriacap.html\">Galería</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Blog</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"https://mobirise.com/\">For Windows</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger mbr-title-font\" href=\"https://mobirise.com/\">For Mac</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Inicio</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">secciones</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"nosotros.html\">Nosotros</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html\">Eventos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"galeria.html#parallax1-1y\">Galería</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Blog</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"https://mobirise.com/\">For Windows</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger mbr-title-font\" href=\"https://mobirise.com/\">For Mac</a></li>",
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
           "_tags": [
             "Tema"
@@ -1115,7 +1115,7 @@
             "bgImageRadio": false,
             "paddingTop": 2,
             "paddingBottom": 2,
-            "bgImage": "@PROJECT_PATH@/assets/images/11.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -1192,7 +1192,7 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/11.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#29d9c2",
@@ -1232,7 +1232,7 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/11.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#765ca6",
@@ -1254,7 +1254,398 @@
         }
       ]
     },
-    "galeriacap.html": {
+    "integrantes.html": {
+      "settings": {
+        "title": "Integrantes",
+        "order": 1
+      },
+      "components": [
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/gal01-1200x900.jpg",
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "Integrantes",
+          "text": "Conoce a las personas que forman parte de nuestro comité",
+          "alias": "unicore/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "parallax1",
+          "_anchor": "parallax1-21"
+        },
+        {
+          "_inherit": "dropdown-menu",
+          "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "transparent": true,
+            "bgColor": "#fff",
+            "fontSize": "1",
+            "fontName": {},
+            "fontColor": "#03a9f4"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Inicio</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">secciones</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"nosotros.html\">Nosotros</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html\">Eventos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"galeria.html#parallax1-1y\">Galería</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Blog</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"https://mobirise.com/\">For Windows</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger mbr-title-font\" href=\"https://mobirise.com/\">For Mac</a></li>",
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "_tags": [
+            "Tema"
+          ],
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#03a9f4"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#fff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#03a9f4"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/comite-2-113x128.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            }
+          },
+          "_name": "dropdown-menu1",
+          "_anchor": "dropdown-menu1-1z"
+        },
+        {
+          "_params": {
+            "showTitle": false,
+            "showText": false,
+            "showMedia": true,
+            "showName": true,
+            "showOccupation": true,
+            "showTexts": true,
+            "showSocials": true,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#f5f5f5",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "header": "Integrantes",
+          "subheader": "Conoce a las personas que conforman nuestro comité",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/1.jpg",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI"
+            }
+          },
+          "title1": "Joseph Doe",
+          "subtitle1": "Maestro",
+          "caption1": "Sed ut unde omnis iste natus error sit accus antium dolor emque laudantium.",
+          "links1": "<li><a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"fa fa-facebook\"></i></a></li><li><a class=\"social fa\" data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"fa fa-twitter\"></i></a></li><li><a class=\"fa\" data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"fa fa-google-plus\"></i></a></li>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/2.jpg",
+              "class": "mbr-figure__img img-responsive",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI"
+            }
+          },
+          "title2": "Maria Wade",
+          "subtitle2": "psicóliga",
+          "caption2": "Sed ut unde omnis iste natus error sit accus antium dolor emque laudantium.",
+          "links2": "<li><a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"fa fa-facebook\"></i></a></li><li><a class=\"social fa\" data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"fa fa-twitter\"></i></a></li><li><a class=\"fa\" data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"fa fa-google-plus\"></i></a></li>",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/3.jpg",
+              "class": "mbr-figure__img img-responsive",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI"
+            }
+          },
+          "title3": "David Mach",
+          "subtitle3": "Padre de familia",
+          "caption3": "Sed ut unde omnis iste natus error sit accus antium dolor emque laudantium.",
+          "links3": "<li><a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"fa fa-facebook\"></i></a></li><li><a class=\"social fa\" data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"fa fa-twitter\"></i></a></li><li><a class=\"fa\" data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"fa fa-google-plus\"></i></a></li>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "features2",
+          "_anchor": "features2-22"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#765ca6",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "text": "© 2016. comite cap. All rights reserved.",
+          "alias": "unicore/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-2c"
+        }
+      ]
+    },
+    "contacto.html": {
+      "settings": {
+        "title": "Contacto",
+        "order": 5
+      },
+      "components": [
+        {
+          "_inherit": "dropdown-menu",
+          "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "transparent": true,
+            "bgColor": "#fff",
+            "fontSize": "1",
+            "fontName": {},
+            "fontColor": "#03a9f4"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Inicio</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">secciones</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"nosotros.html\">Nosotros</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html\">Eventos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"galeria.html#parallax1-1y\">Galería</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Blog</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"https://mobirise.com/\">For Windows</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger mbr-title-font\" href=\"https://mobirise.com/\">For Mac</a></li>",
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "_tags": [
+            "Tema"
+          ],
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#03a9f4"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#fff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#03a9f4"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/comite-2-113x128.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            }
+          },
+          "_name": "dropdown-menu1",
+          "_anchor": "dropdown-menu1-23"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showForm": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75,
+            "showIcons": true,
+            "iconsColor": "#fff",
+            "icon1": "fa-bolt",
+            "icon2": "fa-magnet"
+          },
+          "title": "¿tienes dudas?",
+          "title1": "Déjanos un mensaje",
+          "title2": "ATTRACT VISITORS",
+          "title3": "MAGNET ICON",
+          "text1": "Lorem ipsum dolor sit amet consec tetur elit amet voluptas accusamus dolorum veritatis ea odio dolor emque.",
+          "text2": "Lorem ipsum dolor sit amet consec tetur elit amet voluptas accusamus dolorum veritatis ea odio dolor emque.",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Enviar</a>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "comite@cap.edu.mx",
+            "alerts": {
+              "success": "¡Gracias! Nos pondremos en contacto contigo."
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "First Name",
+                "customTitle": "Nombre"
+              },
+              "lastName": {
+                "visible": true,
+                "title": "Last Name",
+                "customTitle": "Apellido"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email Address",
+                "customTitle": "Correo"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone No.",
+                "customTitle": "Teléfono"
+              }
+            }
+          },
+          "alias": "unicore/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-27"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75,
+            "iconsColor": "@primaryColor",
+            "icon1": "",
+            "icon2": "fa-mobile",
+            "icon3": "fa-envelope",
+            "icon4": ""
+          },
+          "title": "o contáctanos",
+          "text": "Directamente a nuestro correo o teléfono.",
+          "title1": "Call Us",
+          "title2": "teléfono",
+          "title3": "email",
+          "title4": "Email",
+          "text1": "(080) 123 456 7890",
+          "text2": "(222) 3030 400",
+          "text3": "comite@cap.edu.mx",
+          "text4": "comite@cap.edu.mx",
+          "alias": "unicore/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "contacts5",
+          "_anchor": "contacts5-28",
+          "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section--relative\" data-rv-view=\"188\" style=\"background-color: rgb(255, 255, 255);\">\n        \n    <div id=\"contact-info\" style=\"padding-top: 100px; padding-bottom: 100px;\">\n        <div class=\"container\">\n            <div class=\"section-head text-center col-md-8 col-md-offset-2 space50\">\n                <h1 class=\"mbr-title-font mbr-editable-content\" code-editable-id=\"104\">o contáctanos</h1>\n                <p class=\"mbr-editable-content\" code-editable-id=\"105\">Directamente a nuestro correo o teléfono.</p>\n            </div>\n\n            <div class=\"row\">\n                <div class=\"col-lg-3 col-sm-6\">\n                    <!-- <div class=\"c-info\">\n                        <i class=\"fa mbr-primary-color\"></i>\n                        <h5 class=\"mbr-title-font mbr-editable-content\">Call Us</h5>\n                        <p class=\"mbr-editable-content\">(080) 123 456 7890</p>\n                    </div> -->\n                </div>\n\n                <div class=\"col-lg-3 col-sm-6\">\n                    <div class=\"c-info\">\n                        <i class=\"fa mbr-primary-color fa-mobile\"></i>\n                        <h5 class=\"mbr-title-font mbr-editable-content\" code-editable-id=\"106\">teléfono</h5>\n                        <p class=\"mbr-editable-content\" code-editable-id=\"107\">(222) 3030 400</p>\n                    </div>\n                </div>\n\n                <div class=\"col-lg-3 col-sm-6\">\n                    <div class=\"c-info\">\n                        <i class=\"fa mbr-primary-color fa-envelope\"></i>\n                        <h5 class=\"mbr-title-font mbr-editable-content\" code-editable-id=\"108\">email</h5>\n                        <p class=\"mbr-editable-content\" code-editable-id=\"109\"><a href=\"mailto:comite@cap.edu.mx\">comite@cap.edu.mx</a></p>\n                    </div>\n                </div>\n\n                <div class=\"col-lg-3 col-sm-6\">\n                    <!-- <div class=\"c-info\">\n                        <i class=\"fa mbr-primary-color\"></i>\n                        <h5 class=\"mbr-title-font mbr-editable-content\">Email</h5>\n                        <p class=\"mbr-editable-content\">comite@cap.edu.mx</p>\n                    </div> -->\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "",
+          "_customTemplate": true
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#29d9c2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "visita la página oficial del colegio americano",
+          "text": "Lorem ipsum dolor sit amet consec tetur adipiscing elit.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font cta-btn btn-default\" href=\"https://cap.edu.mx\" data-toolbar=\"-mbrBtnMove\">Pcolegio americano</a>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-2a",
+          "_customCSS": "",
+          "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section--relative\" data-rv-view=\"193\" style=\"background-color: rgb(41, 217, 194);\">\n    <div class=\"cta-wrap bg-dark\" style=\"padding-top: 80px; padding-bottom: 65px;\">\n        \n        <div class=\"container\">\n            <div class=\"col-md-9\">\n                <h2 class=\"mbr-title-font mbr-editable-content\" code-editable-id=\"96\">visita la página oficial del colegio americano</h2>\n                \n            </div>\n            <div class=\"col-md-3\">\n                <div><a class=\"btn mbr-title-font cta-btn btn-default mbr-editable-button\" href=\"https://cap.edu.mx\" code-editable-id=\"97\">Colegio americano</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customTemplate": true
+        }
+      ]
+    },
+    "galeria.html": {
       "settings": {
         "title": "Galeria",
         "order": 4
@@ -1273,7 +1664,7 @@
             "fontName": {},
             "fontColor": "#03a9f4"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Inicio</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">secciones</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"nosotros.html\">Nosotros</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html\">Eventos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"galeriacap.html\">Galería</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Blog</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"https://mobirise.com/\">For Windows</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger mbr-title-font\" href=\"https://mobirise.com/\">For Mac</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Inicio</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">secciones</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"nosotros.html\">Nosotros</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html\">Eventos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"galeria.html#parallax1-1y\">Galería</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Blog</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"https://mobirise.com/\">For Windows</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger mbr-title-font\" href=\"https://mobirise.com/\">For Mac</a></li>",
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
           "_tags": [
             "Tema"
@@ -1466,7 +1857,7 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/11.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#765ca6",
@@ -1485,397 +1876,6 @@
           ],
           "_name": "footer1",
           "_anchor": "footer1-2c"
-        }
-      ]
-    },
-    "integrantes.html": {
-      "settings": {
-        "title": "Integrantes",
-        "order": 1
-      },
-      "components": [
-        {
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/gal01-1200x900.jpg",
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.75
-          },
-          "title": "Integrantes",
-          "text": "Conoce a las personas que forman parte de nuestro comité",
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "parallax1",
-          "_anchor": "parallax1-21"
-        },
-        {
-          "_inherit": "dropdown-menu",
-          "_params": {
-            "logo": false,
-            "showBrand": false,
-            "hideButtons": true,
-            "sticky": true,
-            "transparent": true,
-            "bgColor": "#fff",
-            "fontSize": "1",
-            "fontName": {},
-            "fontColor": "#03a9f4"
-          },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Inicio</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">secciones</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"nosotros.html\">Nosotros</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html\">Eventos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"galeriacap.html\">Galería</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Blog</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"https://mobirise.com/\">For Windows</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger mbr-title-font\" href=\"https://mobirise.com/\">For Mac</a></li>",
-          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "_tags": [
-            "Tema"
-          ],
-          "_styles": {
-            ".hide-buttons [data-button]": {
-              "display": "none !important"
-            },
-            ".navbar-brand a": {},
-            ".nav .link, .dropdown-item": {
-              "font-size": "1em",
-              "color": "#03a9f4"
-            },
-            ".navbar, .dropdown-menu": {
-              "background": "#fff"
-            },
-            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
-              "background": "#f5f5f5"
-            },
-            ".navbar-toggler": {
-              "color": "#03a9f4"
-            }
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/comite-2-113x128.png",
-              "class": "",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
-            }
-          },
-          "_name": "dropdown-menu1",
-          "_anchor": "dropdown-menu1-1z"
-        },
-        {
-          "_params": {
-            "showTitle": false,
-            "showText": false,
-            "showMedia": true,
-            "showName": true,
-            "showOccupation": true,
-            "showTexts": true,
-            "showSocials": true,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/11.jpg",
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#f5f5f5",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
-          },
-          "header": "Integrantes",
-          "subheader": "Conoce a las personas que conforman nuestro comité",
-          "media1": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/1.jpg",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI"
-            }
-          },
-          "title1": "Joseph Doe",
-          "subtitle1": "Maestro",
-          "caption1": "Sed ut unde omnis iste natus error sit accus antium dolor emque laudantium.",
-          "links1": "<li><a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"fa fa-facebook\"></i></a></li><li><a class=\"social fa\" data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"fa fa-twitter\"></i></a></li><li><a class=\"fa\" data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"fa fa-google-plus\"></i></a></li>",
-          "media2": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/2.jpg",
-              "class": "mbr-figure__img img-responsive",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI"
-            }
-          },
-          "title2": "Maria Wade",
-          "subtitle2": "psicóliga",
-          "caption2": "Sed ut unde omnis iste natus error sit accus antium dolor emque laudantium.",
-          "links2": "<li><a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"fa fa-facebook\"></i></a></li><li><a class=\"social fa\" data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"fa fa-twitter\"></i></a></li><li><a class=\"fa\" data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"fa fa-google-plus\"></i></a></li>",
-          "media3": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/3.jpg",
-              "class": "mbr-figure__img img-responsive",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI"
-            }
-          },
-          "title3": "David Mach",
-          "subtitle3": "Padre de familia",
-          "caption3": "Sed ut unde omnis iste natus error sit accus antium dolor emque laudantium.",
-          "links3": "<li><a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"fa fa-facebook\"></i></a></li><li><a class=\"social fa\" data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"fa fa-twitter\"></i></a></li><li><a class=\"fa\" data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"fa fa-google-plus\"></i></a></li>",
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "features2",
-          "_anchor": "features2-22"
-        },
-        {
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/11.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#765ca6",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
-          },
-          "text": "© 2016. comite cap. All rights reserved.",
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "footer1",
-          "_anchor": "footer1-2c"
-        }
-      ]
-    },
-    "contacto.html": {
-      "settings": {
-        "title": "Contacto",
-        "order": 5
-      },
-      "components": [
-        {
-          "_inherit": "dropdown-menu",
-          "_params": {
-            "logo": false,
-            "showBrand": false,
-            "hideButtons": true,
-            "sticky": true,
-            "transparent": true,
-            "bgColor": "#fff",
-            "fontSize": "1",
-            "fontName": {},
-            "fontColor": "#03a9f4"
-          },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Inicio</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">secciones</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"nosotros.html\">Nosotros</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html\">Eventos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"galeriacap.html\">Galería</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Blog</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"https://mobirise.com/\">For Windows</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger mbr-title-font\" href=\"https://mobirise.com/\">For Mac</a></li>",
-          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "_tags": [
-            "Tema"
-          ],
-          "_styles": {
-            ".hide-buttons [data-button]": {
-              "display": "none !important"
-            },
-            ".navbar-brand a": {},
-            ".nav .link, .dropdown-item": {
-              "font-size": "1em",
-              "color": "#03a9f4"
-            },
-            ".navbar, .dropdown-menu": {
-              "background": "#fff"
-            },
-            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
-              "background": "#f5f5f5"
-            },
-            ".navbar-toggler": {
-              "color": "#03a9f4"
-            }
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/comite-2-113x128.png",
-              "class": "",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
-            }
-          },
-          "_name": "dropdown-menu1",
-          "_anchor": "dropdown-menu1-23"
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showForm": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/11.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#4c6972",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.75,
-            "showIcons": true,
-            "iconsColor": "#fff",
-            "icon1": "fa-bolt",
-            "icon2": "fa-magnet"
-          },
-          "title": "¿tienes dudas?",
-          "title1": "Déjanos un mensaje",
-          "title2": "ATTRACT VISITORS",
-          "title3": "MAGNET ICON",
-          "text1": "Lorem ipsum dolor sit amet consec tetur elit amet voluptas accusamus dolorum veritatis ea odio dolor emque.",
-          "text2": "Lorem ipsum dolor sit amet consec tetur elit amet voluptas accusamus dolorum veritatis ea odio dolor emque.",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Enviar</a>",
-          "form": {
-            "title": "MESSAGE",
-            "action": "comite@cap.edu.mx",
-            "alerts": {
-              "success": "¡Gracias! Nos pondremos en contacto contigo."
-            },
-            "fields": {
-              "name": {
-                "visible": true,
-                "title": "First Name",
-                "customTitle": "Nombre"
-              },
-              "lastName": {
-                "visible": true,
-                "title": "Last Name",
-                "customTitle": "Apellido"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email Address",
-                "customTitle": "Correo"
-              },
-              "phone": {
-                "visible": true,
-                "title": "Phone No.",
-                "customTitle": "Teléfono"
-              }
-            }
-          },
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "header1",
-          "_anchor": "header1-27"
-        },
-        {
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/11.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.75,
-            "iconsColor": "@primaryColor",
-            "icon1": "",
-            "icon2": "fa-mobile",
-            "icon3": "fa-envelope",
-            "icon4": ""
-          },
-          "title": "o contáctanos",
-          "text": "Directamente a nuestro correo o teléfono.",
-          "title1": "Call Us",
-          "title2": "teléfono",
-          "title3": "email",
-          "title4": "Email",
-          "text1": "(080) 123 456 7890",
-          "text2": "(222) 3030 400",
-          "text3": "comite@cap.edu.mx",
-          "text4": "comite@cap.edu.mx",
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "contacts5",
-          "_anchor": "contacts5-28",
-          "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section--relative\" data-rv-view=\"188\" style=\"background-color: rgb(255, 255, 255);\">\n        \n    <div id=\"contact-info\" style=\"padding-top: 100px; padding-bottom: 100px;\">\n        <div class=\"container\">\n            <div class=\"section-head text-center col-md-8 col-md-offset-2 space50\">\n                <h1 class=\"mbr-title-font mbr-editable-content\" code-editable-id=\"104\">o contáctanos</h1>\n                <p class=\"mbr-editable-content\" code-editable-id=\"105\">Directamente a nuestro correo o teléfono.</p>\n            </div>\n\n            <div class=\"row\">\n                <div class=\"col-lg-3 col-sm-6\">\n                    <!-- <div class=\"c-info\">\n                        <i class=\"fa mbr-primary-color\"></i>\n                        <h5 class=\"mbr-title-font mbr-editable-content\">Call Us</h5>\n                        <p class=\"mbr-editable-content\">(080) 123 456 7890</p>\n                    </div> -->\n                </div>\n\n                <div class=\"col-lg-3 col-sm-6\">\n                    <div class=\"c-info\">\n                        <i class=\"fa mbr-primary-color fa-mobile\"></i>\n                        <h5 class=\"mbr-title-font mbr-editable-content\" code-editable-id=\"106\">teléfono</h5>\n                        <p class=\"mbr-editable-content\" code-editable-id=\"107\">(222) 3030 400</p>\n                    </div>\n                </div>\n\n                <div class=\"col-lg-3 col-sm-6\">\n                    <div class=\"c-info\">\n                        <i class=\"fa mbr-primary-color fa-envelope\"></i>\n                        <h5 class=\"mbr-title-font mbr-editable-content\" code-editable-id=\"108\">email</h5>\n                        <p class=\"mbr-editable-content\" code-editable-id=\"109\"><a href=\"mailto:comite@cap.edu.mx\">comite@cap.edu.mx</a></p>\n                    </div>\n                </div>\n\n                <div class=\"col-lg-3 col-sm-6\">\n                    <!-- <div class=\"c-info\">\n                        <i class=\"fa mbr-primary-color\"></i>\n                        <h5 class=\"mbr-title-font mbr-editable-content\">Email</h5>\n                        <p class=\"mbr-editable-content\">comite@cap.edu.mx</p>\n                    </div> -->\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_customCSS": "",
-          "_customTemplate": true
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButtons": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/11.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#29d9c2",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
-          },
-          "title": "visita la página oficial del colegio americano",
-          "text": "Lorem ipsum dolor sit amet consec tetur adipiscing elit.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font cta-btn btn-default\" href=\"https://cap.edu.mx\" data-toolbar=\"-mbrBtnMove\">Pcolegio americano</a>",
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "msg-box1",
-          "_anchor": "msg-box1-2a",
-          "_customCSS": "",
-          "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section--relative\" data-rv-view=\"193\" style=\"background-color: rgb(41, 217, 194);\">\n    <div class=\"cta-wrap bg-dark\" style=\"padding-top: 80px; padding-bottom: 65px;\">\n        \n        <div class=\"container\">\n            <div class=\"col-md-9\">\n                <h2 class=\"mbr-title-font mbr-editable-content\" code-editable-id=\"96\">visita la página oficial del colegio americano</h2>\n                \n            </div>\n            <div class=\"col-md-3\">\n                <div><a class=\"btn mbr-title-font cta-btn btn-default mbr-editable-button\" href=\"https://cap.edu.mx\" code-editable-id=\"97\">Colegio americano</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_customTemplate": true
         }
       ]
     }
