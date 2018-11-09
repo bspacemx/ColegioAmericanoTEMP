@@ -1,41 +1,53 @@
 {
   "settings": {
-    "name": "Comite Integral",
-    "currentPage": "index.html",
+    "name": "American School Foundation",
+    "currentPage": "nosotros.html",
     "theme": {
-      "name": "unicore",
-      "title": "Unicore",
+      "name": "colorm",
+      "title": "ColorM",
       "styling": {
-        "primaryColor": "#765ca6",
-        "successColor": "#7ac673",
-        "infoColor": "#27aae0",
-        "warningColor": "#faaf40",
-        "dangerColor": "#f97352",
+        "primaryColor": "#5a2587",
+        "buttonsColor": "#000000",
+        "secondaryColor": "#30cfde",
+        "successColor": "#e22573",
+        "infoColor": "#ed7d01",
+        "warningColor": "#f1c40f",
+        "dangerColor": "#eeeeee",
         "titleFont": "Montserrat",
-        "textFont": "Raleway",
-        "isSquareButtons": false
+        "subtitleFont": "Open Sans",
+        "textFont": "Open Sans",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
       },
       "additionalSetColors": [
-        "#3a3a3a",
-        "#d83a70",
-        "#39bfc3",
-        "#555555",
-        "#ffffff",
-        "#765ca6",
-        "#e7e7e7"
+        "#f1b00f",
+        "#f1970f",
+        "#462562",
+        "#f9f9f9",
+        "#fcfcfc",
+        "#30cfde",
+        "#ed7d01"
       ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.6",
-    "siteFonts": [],
+    "siteFonts": [
+      {
+        "css": "'Hind Siliguri', sans-serif",
+        "name": "Hind Siliguri",
+        "url": "https://fonts.googleapis.com/css?family=Hind+Siliguri:300,400,500,600,700"
+      }
+    ],
     "favicon": "",
     "noImageResize": "",
     "google-analytics": "",
     "cookiesAlert": "",
     "gdpr": "",
     "siteUrl": "undefined",
-    "uniqCompNum": 110,
-    "versionPublish": "4.8.6"
+    "uniqCompNum": 150,
+    "versionPublish": "4.8.6",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -49,64 +61,1414 @@
       },
       "components": [
         {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#30cfde"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#30cfde"
+            },
+            ".link, .dropdown-item": {
+              "color": "#30cfde"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#30cfde"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#30cfde",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#5a2587!important"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#ffffff",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#30cfde",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">Inicio</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\" aria-expanded=\"false\">Nosotros</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\" aria-expanded=\"false\">Eventos</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\" aria-expanded=\"false\">Galería</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\" aria-expanded=\"false\">Blog</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"contactocap.html#call4-1q\">Contáctanos</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/comitelogoh-311x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-5"
+        },
+        {
+          "_styles": {
+            ".display-1": {
+              "font-weight": "700",
+              "text-transform": "uppercase",
+              "margin-top": "40px"
+            }
+          },
           "_params": {
             "showTitle": true,
             "showText": false,
-            "showMedia": true,
             "showButtons": true,
-            "bgImageRadio": true,
-            "paddingTop": "4",
-            "paddingBottom": "0",
-            "bgImage": "@PROJECT_PATH@/assets/images/8.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#4c6972",
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#f1970f",
+            "bgText": "Contáctanos",
+            "bgTextStyle": "Montserrat",
+            "bgTextColor": "#f1b00f",
+            "bgTextSize": 250,
             "bgVideoRadio": false,
             "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
             "overlayColor": "#000",
-            "overlayOpacity": "0.9"
+            "overlayOpacity": 0.1
+          },
+          "title": "¿Dudas?",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in, doloribus hic aperiam maiores fugit.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Contáctanos</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "animated-bg1",
+          "_anchor": "animated-bg1-45"
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#3a3a3a",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2018&nbsp;<a href=\"http://bspacemx.com/\" class=\"text-success\">BSpace Digital Agency.</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-x"
+        },
+        {
+          "_styles": {
+            ".display-1": {
+              "font-weight": "700"
+            },
+            ".lead": {
+              "color": "#fff",
+              "text-transform": "uppercase",
+              "margin-bottom": "0"
+            },
+            ".mbr-section-title": {
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".btn": {
+              "font-size": "12px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "buttonAlign": "center",
+            "showArrow": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/comite-1-2000x1188.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#16a085",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#462562",
+            "overlayOpacity": 0.9
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "title": "Comité de Prevención Integral del Colegio<br><br>",
+          "text": "<br><br>Bienvenidos al panel",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary\" href=\"nosotros.html#header1-2h\" data-toolbar=\"-mbrBtnMove\">Nosotros</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"eventoscap.html#header11-v\" data-toolbar=\"-mbrBtnMove\">Eventos</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"galeroacap.html#content5-13\" data-toolbar=\"-mbrBtnMove\">Galería</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"galeroacap.html#content5-13\" data-toolbar=\"-mbrBtnMove\">Blog</a> ",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-43",
+          "_customCSS": ""
+        }
+      ]
+    },
+    "eventoscap.html": {
+      "settings": {
+        "title": "Nuestros eventos",
+        "order": 2
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#30cfde"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#30cfde"
+            },
+            ".link, .dropdown-item": {
+              "color": "#30cfde"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#30cfde"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#30cfde",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#5a2587!important"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#ffffff",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#30cfde",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">Inicio</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\" aria-expanded=\"false\">Nosotros</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\" aria-expanded=\"false\">Eventos</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\" aria-expanded=\"false\">Galería</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\" aria-expanded=\"false\">Blog</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"contactocap.html#call4-1q\">Contáctanos</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/comitelogoh-311x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-1a"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true,
+            "animText1": "Ayuda",
+            "animText2": "Diviértete",
+            "animText3": "Convive",
+            "typeSpeed": 60,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/headereventos02-2000x1399.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#302c59",
+            "overlayOpacity": "0.8"
+          },
+          "title": "Nuestros eventos.<br>",
+          "text": "Para toda la familia.<br>Conoce los eventos que tendremos este año.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">GET FREE TRIAL</a>",
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "header11",
+          "_anchor": "header11-v",
+          "_styles": {
+            "P": {
+              "font-size": "18px"
+            },
+            "H1": {
+              "font-family": "'Arimo', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Arimo:400,700"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "36px"
+            }
+          },
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "showText1": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/07.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.7
+          },
+          "title": "Regístrate a nuestro siguiente evento",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quaerat omnis amet accusantium accusamus quidems?",
+          "text1": "or <a href=\"http://mobirise.com\">Check FAQ</a>.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Registrar</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "call5",
+          "_anchor": "call5-3p"
+        },
+        {
+          "_params": {
+            "showText": false,
+            "paddingTop": 4,
+            "paddingBottom": "0",
+            "bgColor": "#ffffff"
           },
           "media": {
             "image": {
               "active": true,
-              "class": "pull-left",
+              "src": "@PROJECT_PATH@/assets/images/cinebajoestrellas-1000x458.png",
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/headerhome-2-1260x460.png",
               "link": "",
               "alt": "",
               "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
             }
           },
-          "title": "Comité de Prevención Integral del Colegio",
-          "text": "Nam tellus turpis blandit et ligula dolorum minus fugit in ipsum semper massa magna eget nunc iaculis nunc.",
-          "buttons": "<a data-app-btn=\"true\" href=\"nosotros.html\" class=\"btn mbr-title-font btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\">Nosotros</a> <a data-app-btn=\"true\" href=\"eventoscap.html\" class=\"btn mbr-title-font btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\">Eventos</a> <a data-app-btn=\"true\" href=\"galeria.html#parallax1-1y\" class=\"btn mbr-title-font btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\">Galería</a> <a data-app-btn=\"true\" href=\"index.html\" class=\"btn mbr-title-font btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\">Reflexiones</a>  ",
-          "alias": "unicore/components",
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "alias": "colorm/components",
           "_tags": [
             "Tema"
           ],
-          "_name": "header18",
-          "_anchor": "header18-u",
-          "_customCSS": ".btn {\n    margin-bottom: 40px;\n    margin-right: 20px;\n}",
+          "_name": "image2",
+          "_anchor": "image2-35"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "3",
+            "bgColor": "#ffffff"
+          },
+          "text": "Es de gran emoción para las familias preparar con anticipación el cojín favorito, el sleeping bag, la pijama consentida o los pants más cómodos sin olvidar la deliciosa cobija para asistir y disfrutar juntos de la película en el CINE BAJO LAS ESTRELLAS. Es una actividad al aire libre que reúne factores importates: \n<br>\n<br><b>1. Divertirse en Familia \n<br>2. Ayudar a quienes lo necesitan \n<br></b>\n<br>Cada familia adquiere sus boletos donando una despensa, un kit de higiene personal, etc. según las necesidades de las instituciones a las que ayudamos cada año. \n<br>Con este evento buscamos crear un ámbito familiar de confianza y comunicación como la principal herramienta para lograr una comunidad saludable y responsable. Siempre encontrarán nuestra tienda con las ricas palomitas, la pizza, el hotdog, la dona, etc. todo lo que necesites para pasar una gran velada en familia. Cada vez que compran en nuestra tienda contribuyen a que el Comité de Prevención Integral continúe realizando las actividades de convivencia familiar.",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-37"
+        },
+        {
+          "_params": {
+            "showText": false,
+            "paddingTop": 4,
+            "paddingBottom": "0",
+            "bgColor": "#30cfde"
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/familychallenge01-1000x458.png",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-38"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "3",
+            "bgColor": "#30cfde"
+          },
+          "text": "La diversión sana con las diferentes edades que integran una familia es posible, siempre y cuando se tenga la disposición y el compromiso en cada uno de los integrantes. El Objetivo es integrar a la comunidad CAP en una actividad deportiva, de esparcimiento, donde todos los integrantes de la familia pasen un rato agradable, fortaleciendo su habilidad de comunicación y lazos afectivos; con la capacidad de desarrollar estrategias en su participación. En este evento, cada familia es un equipo y juntos llegan a la meta, en el recorrido encuentran retos, laberintos, túneles, agua, etc. Así es como en familia podemos sentar bases sólidas para la felicidad y éxito de nuestros hijos. \n<br>\n<br><b>Lo que necesitan para participar es inscribirse, usar su ropa deportiva favorita y muchas ganas de divertirse. \n<br></b>\n<br>Contamos con el valioso apoyo del departamento de Deportes bajo la dirección del Prof. José Manuel González y su equipo de profesores, ellos están a cargo de la logística del evento; desarrollan cada estación y califican la participación de cada familia. El Comité de Prevención Integral, eje padres de familia les proporciona un área de esparcimiento y de ricos alimentos para desayunar. Cada vez que compran en nuestra tienda contribuyen a que el Comité de Prevención Integral continúe realizando las actividades de convivencia familiar.&nbsp;",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-39",
           "_styles": {
-            "H3": {
-              "font-size": "48px"
+            "P": {
+              "color": "#ffffff"
             }
           }
         },
         {
           "_params": {
-            "paddingTop": 0,
+            "showText": false,
+            "paddingTop": 4,
+            "paddingBottom": "0",
+            "bgColor": "#ef4589"
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/familyfunrun-1000x458.png",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-3a"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "3",
+            "bgColor": "#ef4589"
+          },
+          "text": "Correr en familia es posible haciendo equipo, apoyándonos y animándonos los unos a los otros. Con esta carrera buscamos integrar a las familias, donde todos los miembros pasen una mañana divertida, fortaleciendo la comunicación y lazos afectivos. Cada familia es un equipo y juntos llegan a la meta, en el recorrido deben avanzar unidos, un gran reto cuando somos de diferentes edades. Así es como en familia podemos sentar bases sólidas para la felicidad y éxito de nuestros hijos. \n<br>\n<br><b>Para participar se inscriben, usan su ropa deportiva favorita y mucho ánimo. \n<br></b>\n<br>Contamos con el valioso apoyo del departamento de Deportes bajo la dirección del Prof. José Manuel González y su equipo de profesores, ellos están a cargo de la logística del evento; desarrollan el circuito y califican la participación de cada familia. Al terminar el circuito, el Comité de Prevención Integral, eje padres de familia, tiene preparado un espacio de entretenimiento con inflables de agua, música y comida para desayunar. \n<br>\n<br><b>Cada vez que compran en nuestra tienda contribuyen a que el Comité de Prevención Integral continúe realizando las actividades de convivencia familiar.&nbsp;</b>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-3b",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showText": false,
+            "paddingTop": 4,
+            "paddingBottom": "3",
+            "bgColor": "#a45ec1"
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/fiestanavidena-1000x458.png",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-3c"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "3",
+            "bgColor": "#a45ec1"
+          },
+          "text": "Una emotiva celebración en familia, cada año los participantes conmovidos por los deseos de paz, amor, unión, comparten gratos momentos. En este evento disfrutan del espíritu navideño con el tradicional encendido del árbol, el coro integrado por niños voluntarios de primaria y sus tradicionales villancicos, el taller de esferas y el muro de los buenos deseos. Una vez más reforzamos la importancia de estar juntos conviviendo en familia fortaleciendo los lazos y la comunicación para formar niños fuertes y seguros para enfrentar los retos de la vida. Desde luego no puede faltar un rico ponche o café y esquites para el frío, unas tradicionales chalupas o tacos y los deliciosos churros. Les invitamos a participar, es una noche llena de música, comida y diversión con el toque de la unión familiar. \n<br>\n<br><b>Para asistir es importante el registro, confirmen la asistencia de su familia. \n<br></b>\n<br><b>Cada vez que compran en nuestra tienda contribuyen a que el Comité de Prevención Integral continúe realizando las actividades de convivencia familiar.&nbsp;</b>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-3d",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showText": false,
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "bgColor": "#3a3a3a"
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/campamentopapayyo-1000x458.png",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-3e"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "3",
+            "bgColor": "#3a3a3a"
+          },
+          "text": "Con estos campamentos promovemos una mayor integración entre padres e hijos, creando grandes lazos a través de un fin de semana inolvidable y de grandes experiencias. Continuamos así con nuestro compromiso para fortalecer la convivencia familiar como herramienta fundamental en la prevención de adicciones. Estos campamentos se realizan en espacios adecuados para las actividades, el papá y el hijo juegan juntos y comparten momentos emotivos desde el momento de abordar el autobús. \n<br>\n<br><b>Para la realización de esta actividad El Comité de Prevención Integral, eje padres de familia, invita cada año a Eduplay, empresa dedicada a la realización de campamentos en sedes cercanas a la Ciudad de Puebla. \n<br></b>\n<br><b>Todo lo relacionado con inscripción, pagos y desarrollo de la actividad corre a cargo de Eduplay. El Comité sólo coordina la invitación y las juntas informativas.&nbsp;</b>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-3f",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#3a3a3a",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2018&nbsp;<a href=\"http://bspacemx.com/\" class=\"text-success\">BSpace Digital Agency.</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-s"
+        }
+      ]
+    },
+    "galeroacap.html": {
+      "settings": {
+        "title": "Galeria",
+        "order": 4,
+        "meta_descr": ""
+      },
+      "components": [
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/header-galeria-2000x750.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#302c59",
+            "overlayOpacity": "0.6"
+          },
+          "title": "<br>Galería",
+          "caption": "<p>Encuentra las fotos de los eventos CAP aquí</p>",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-13"
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": "0",
+            "paddingTop": "0",
             "paddingBottom": 0,
+            "filterBgColor": false,
+            "bgColor": "#FFFFFF",
+            "showText": false,
+            "filter": true,
+            "images": [
+              {
+                "tags": "Fun Run",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gal01-1200x900.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gal01-1200x900-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "caption": "Evento 01",
+                "active": true
+              },
+              {
+                "tags": "Conferencias",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/gal02-1200x900.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gal02-1200x900-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Evento 02<br>",
+                "active": false
+              },
+              {
+                "tags": "Navidad",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/gal03-1200x900.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gal03-1200x900-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Evento 03",
+                "active": false
+              },
+              {
+                "tags": "Cine",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/gal04-1200x900.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gal04-1200x900-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Evento 04",
+                "active": false
+              },
+              {
+                "tags": "Cine",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/gal05-1200x900.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gal05-1200x900-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Evento 05",
+                "active": false
+              },
+              {
+                "tags": "Conferencias",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/gal06-1200x900.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gal06-1200x900-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Evento 06",
+                "active": false
+              },
+              {
+                "tags": "Fun Run",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/gal07-1200x900.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gal07-1200x900-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Evento 07",
+                "active": false
+              },
+              {
+                "tags": "Fun Run",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/gal08-1200x900.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gal08-1200x900-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Evento 08",
+                "active": false
+              },
+              {
+                "tags": "Cine",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/gal09-1200x900.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gal09-1200x900-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Evento 09",
+                "active": false
+              },
+              {
+                "tags": "Fun Run",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/gal10-1200x900.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gal10-1200x900-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Evento 10",
+                "active": false
+              },
+              {
+                "tags": "Cine",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/gal11-1200x900.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gal11-1200x900-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Evento 11",
+                "active": false
+              },
+              {
+                "tags": "Navidad",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "image": "@PROJECT_PATH@/assets/images/gal12-1200x900.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gal12-1200x900-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Evento 12",
+                "active": false
+              }
+            ]
+          },
+          "articleLayout": false,
+          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrowleft.png\">",
+          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrowright.png\">",
+          "allItem": "ALL",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-y",
+          "_customCSS": ""
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#30cfde"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#30cfde"
+            },
+            ".link, .dropdown-item": {
+              "color": "#30cfde"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#30cfde"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#30cfde",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#5a2587!important"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#ffffff",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#30cfde",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">Inicio</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\" aria-expanded=\"false\">Nosotros</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\" aria-expanded=\"false\">Eventos</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\" aria-expanded=\"false\">Galería</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\" aria-expanded=\"false\">Blog</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"contactocap.html#call4-1q\">Contáctanos</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/comitelogoh-311x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-w"
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#3a3a3a",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2018&nbsp;<a href=\"http://bspacemx.com/\" class=\"text-success\">BSpace Digital Agency.</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-x"
+        }
+      ]
+    },
+    "integrantescap.html": {
+      "settings": {
+        "title": "Integrantes",
+        "order": 5
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#30cfde"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#30cfde"
+            },
+            ".link, .dropdown-item": {
+              "color": "#30cfde"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#30cfde"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#30cfde",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#5a2587!important"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#ffffff",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#30cfde",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">Inicio</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\" aria-expanded=\"false\">Nosotros</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\" aria-expanded=\"false\">Eventos</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\" aria-expanded=\"false\">Galería</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\" aria-expanded=\"false\">Blog</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"contactocap.html#call4-1q\">Contáctanos</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/comitelogoh-311x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-14"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/integrantes-1-691x515.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#302c59",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#169581",
+            "overlayOpacity": 0.8
+          },
+          "title": "<br>Nuestros integrantes",
+          "caption": "<p>Te presentamos a nuestro equipo de trabajo del Comité de Prevención de Adicciones</p>",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-15"
+        },
+        {
+          "_params": {
+            "showTitle": false,
+            "showSubtitle": false,
+            "rows": "2",
+            "bgItem1": "#f5f5f5",
+            "bgItem2": "#f39c12",
+            "bgItem3": "#302c59",
+            "bgItem4": "#3498db",
+            "paddingTop": "0",
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/pricing-table/pricing-table-bg.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Our Team",
+          "subtitle": "This new-found knowledge may then be used by engineers to create new tools and machines.",
+          "person1": "Aida Contreras Hernández",
+          "person2": "Eva Hernández Martínez",
+          "person3": "Josefina Maya Soto",
+          "person4": "Olga Méndez Juárez",
+          "subtitle1": "Puesto / Especialidad",
+          "subtitle2": "Puesto / Especialidad",
+          "subtitle3": "Puesto / Especialidad",
+          "subtitle4": "Puesto / Especialidad",
+          "caption1": "Mauris erat ipsum, euismod ac massa a, imperdiet pellentesque ligula. Pellentesque iaculis magna eros, ut laoreet tortor eleifend ut. Fusce tincidunt placerat justo, id sodales magna aliquet id. Vivamus malesuada id arcu non eleifend.",
+          "caption2": "Mauris erat ipsum, euismod ac massa a, imperdiet pellentesque ligula. Pellentesque iaculis magna eros, ut laoreet tortor eleifend ut. Fusce tincidunt placerat justo, id sodales magna aliquet id. Vivamus malesuada id arcu non eleifend.",
+          "caption3": "Mauris erat ipsum, euismod ac massa a, imperdiet pellentesque ligula. Pellentesque iaculis magna eros, ut laoreet tortor eleifend ut. Fusce tincidunt placerat justo, id sodales magna aliquet id. Vivamus malesuada id arcu non eleifend.",
+          "caption4": "Mauris erat ipsum, euismod ac massa a, imperdiet pellentesque ligula. Pellentesque iaculis magna eros, ut laoreet tortor eleifend ut. Fusce tincidunt placerat justo, id sodales magna aliquet id. Vivamus malesuada id arcu non eleifend.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/int01-476x430.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/int02-476x430.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/int03-476x430.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/int04-476x430.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "team1",
+          "_anchor": "team1-18",
+          "_styles": {
+            ".title3": {
+              "color": "#ffffff"
+            },
+            ".text3": {
+              "color": "#ffffff"
+            },
+            ".title4": {
+              "color": "#302c59"
+            },
+            ".text4": {
+              "color": "#302c59"
+            },
+            ".subtitle4": {
+              "color": "#302c59"
+            },
+            ".subtitle3": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#3a3a3a",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2018&nbsp;<a href=\"http://bspacemx.com/\" class=\"text-success\">BSpace Digital Agency.</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-2g"
+        }
+      ]
+    },
+    "contactocap.html": {
+      "settings": {
+        "title": "Contacto",
+        "order": 6
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#30cfde"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#30cfde"
+            },
+            ".link, .dropdown-item": {
+              "color": "#30cfde"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#30cfde"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#30cfde",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#5a2587!important"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#ffffff",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#30cfde",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">Inicio</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\" aria-expanded=\"false\">Nosotros</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\" aria-expanded=\"false\">Eventos</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\" aria-expanded=\"false\">Galería</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\" aria-expanded=\"false\">Blog</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"contactocap.html#call4-1q\">Contáctanos</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/comitelogoh-311x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-1a"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": false,
+            "paddingTop": "5",
+            "paddingBottom": "5",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/header-contacto-2000x1280.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#302c59",
+            "overlayOpacity": 0.8
+          },
+          "title": "¿Dudas?",
+          "caption": "<p>Article header with background image and parallax effect.</p>",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-3i"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "7",
+            "paddingBottom": "0",
+            "bgColor": "#fff"
+          },
+          "title": "Mándanos un mensaje",
+          "meta": "o déjanos tu opinión en los comentarios.",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-3t"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "7",
+            "bgColor": "#ffffff"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" href=\"https://mobirise.com/mobirise-free-win.zip\" data-toolbar=\"-mbrBtnMove\">comite@cap.edu.mx</a> <a data-app-btn=\"true\" class=\"btn btn-primary-outline btn-primary\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\">(222) 3030 400</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-3s"
+        },
+        {
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
             "socialFacebook": true,
             "postsNumber": 5,
             "socialGoogle": false,
             "socialDisqus": false,
             "shortName": "",
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#ecf0f1",
             "bgImageRadio": false,
             "bgImage": "@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/comments_bg.jpg",
             "overlay": true,
@@ -121,1505 +1483,217 @@
             "Extensión"
           ],
           "_name": "facebook-comments-block",
-          "_anchor": "facebook-comments-block-31"
+          "_anchor": "facebook-comments-block-3u"
         },
         {
-          "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButtons": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#222",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
-          },
-          "title": "¿tienes dudas? contáctanos",
-          "text": "Contáctanos, te ayudamos a solucionarlo.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font cta-btn btn-default\" href=\"contacto.html#header1-27\" data-toolbar=\"-mbrBtnMove\">PContáctanos</a>",
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "msg-box1",
-          "_anchor": "msg-box1-x",
-          "_customCSS": "H2 {\n  text-align: center;\n}\n",
-          "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section--relative\" data-rv-view=\"3\" style=\"background-color: rgb(34, 34, 34);\">\n    <div class=\"cta-wrap bg-dark\" style=\"padding-top: 80px; padding-bottom: 65px;\">\n        \n        <div class=\"container\">\n            <div class=\"col-md-9\">\n                <h2 class=\"mbr-title-font mbr-editable-content\" code-editable-id=\"144\">¿tienes dudas? contáctanos</h2>\n                \n            </div>\n            <div class=\"col-md-3\">\n                <div><a class=\"btn mbr-title-font cta-btn btn-default mbr-editable-button\" href=\"contacto.html#header1-27\" code-editable-id=\"145\">Contáctanos</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_customTemplate": true
-        },
-        {
-          "_inherit": "dropdown-menu",
-          "_params": {
-            "logo": false,
-            "showBrand": false,
-            "hideButtons": true,
-            "sticky": true,
-            "transparent": true,
-            "bgColor": "#fff",
-            "fontSize": "1",
-            "fontName": {},
-            "fontColor": "#03a9f4"
-          },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Inicio</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">secciones</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"nosotros.html\">Nosotros</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html\">Eventos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"galeria.html#parallax1-1y\">Galería</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Blog</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"https://mobirise.com/\">For Windows</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger mbr-title-font\" href=\"https://mobirise.com/\">For Mac</a></li>",
-          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "_tags": [
-            "Tema"
-          ],
           "_styles": {
-            ".hide-buttons [data-button]": {
-              "display": "none !important"
-            },
-            ".navbar-brand a": {},
-            ".nav .link, .dropdown-item": {
-              "font-size": "1em",
-              "color": "#03a9f4"
-            },
-            ".navbar, .dropdown-menu": {
-              "background": "#fff"
-            },
-            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
-              "background": "#f5f5f5"
-            },
-            ".navbar-toggler": {
-              "color": "#03a9f4"
+            ".mbr-section-text": {
+              "color": "#fff"
             }
           },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/comite-2-113x128.png",
-              "class": "",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
-            }
-          },
-          "_name": "dropdown-menu1",
-          "_anchor": "dropdown-menu1-1"
-        },
-        {
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#765ca6",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
-          },
-          "text": "© 2016. comite cap. All rights reserved.",
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "footer1",
-          "_anchor": "footer1-2c"
-        }
-      ]
-    },
-    "eventoscap.html": {
-      "settings": {
-        "title": "Nuestros eventos",
-        "order": 3
-      },
-      "components": [
-        {
-          "_inherit": "dropdown-menu",
-          "_params": {
-            "logo": false,
-            "showBrand": false,
-            "hideButtons": true,
-            "sticky": true,
-            "transparent": true,
-            "bgColor": "#fff",
-            "fontSize": "1",
-            "fontName": {},
-            "fontColor": "#03a9f4"
-          },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Inicio</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">secciones</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"nosotros.html\">Nosotros</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html\">Eventos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"galeria.html#parallax1-1y\">Galería</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Blog</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"https://mobirise.com/\">For Windows</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger mbr-title-font\" href=\"https://mobirise.com/\">For Mac</a></li>",
-          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "_tags": [
-            "Tema"
-          ],
-          "_styles": {
-            ".hide-buttons [data-button]": {
-              "display": "none !important"
-            },
-            ".navbar-brand a": {},
-            ".nav .link, .dropdown-item": {
-              "font-size": "1em",
-              "color": "#03a9f4"
-            },
-            ".navbar, .dropdown-menu": {
-              "background": "#fff"
-            },
-            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
-              "background": "#f5f5f5"
-            },
-            ".navbar-toggler": {
-              "color": "#03a9f4"
-            }
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/comite-2-113x128.png",
-              "class": "",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
-            }
-          },
-          "_name": "dropdown-menu1",
-          "_anchor": "dropdown-menu1-17"
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showText": false,
-            "paddingTop": "2",
-            "paddingBottom": "2",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/headereventos03-2000x691.jpg",
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": "0.5"
-          },
-          "title": "Nuestros eventos",
-          "text": "EVENTO CON CAUSA",
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "parallax1",
-          "_anchor": "parallax1-1a"
-        },
-        {
-          "_params": {
-            "bgImageRadio": false,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
-          },
-          "media1": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img img-responsive post-thumb",
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/cinebajoestrellas-1000x458.png",
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title1": "Bakery egg foods around the world",
-          "info1": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
-          "text1": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
-          "media2": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img img-responsive post-thumb",
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/blog/2.jpg"
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title2": "Bakery egg foods around the world",
-          "info2": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
-          "text2": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
-          "media3": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img img-responsive post-thumb",
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/blog/3.jpg"
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title3": "Bakery egg foods around the world",
-          "info3": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
-          "text3": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
-          "media4": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img img-responsive post-thumb",
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/blog/4.jpg"
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title4": "Bakery egg foods around the world",
-          "info4": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
-          "text4": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "msg-box21",
-          "_anchor": "msg-box21-2t"
-        },
-        {
-          "_params": {
-            "showTitle": false,
-            "paddingTop": "0",
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
-          },
-          "title": "12 Column Width",
-          "text": "Es de gran emoción para las familias preparar con anticipación el cojín favorito, el sleeping bag, la pijama consentida o los pants más cómodos sin olvidar la deliciosa cobija para asistir y disfrutar juntos de la película en el <b>CINE BAJO LAS ESTRELLAS.\n</b><br>\n<br>Es una actividad al aire libre que reúne factores importantes:\n<br>\n<br><b>1° Divertirse en familia\n<br>2° Ayudar a quienes lo necesitan\n<br></b>\n<br>Cada familia adquiere sus boletos donando una despensa, un kit de higiene personal, etc. Según las necesidades de las instituciones a las que ayudamos cada año. Con este evento buscamos crear un ámbito familiar de confianza y comunicación como la principal herramienta para lograr una comunidad saludable y responsable. Siempre encontrarán nuestra tienda con las ricas palomitas, la pizza, el hotdog, la dona, etc. Todo lo que necesites para pasar una gran velada en familia.\n<br>\n<br><b>Cada vez que compran en nuestra tienda contribuyen a que el Comité de Prevención Integral continúe realizando las actividades de convivencia familiar.</b>",
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "msg-box11",
-          "_anchor": "msg-box11-2j",
-          "_styles": {
-            "B": {
-              "color": "#765ca6"
-            }
-          }
-        },
-        {
-          "_params": {
-            "bgImageRadio": false,
-            "paddingTop": "4",
-            "paddingBottom": 2,
-            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#39bfc3",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
-          },
-          "media1": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img img-responsive post-thumb",
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/familychallenge01-1000x458.png",
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title1": "Bakery egg foods around the world",
-          "info1": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
-          "text1": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
-          "media2": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img img-responsive post-thumb",
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/blog/2.jpg"
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title2": "Bakery egg foods around the world",
-          "info2": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
-          "text2": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
-          "media3": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img img-responsive post-thumb",
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/blog/3.jpg"
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title3": "Bakery egg foods around the world",
-          "info3": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
-          "text3": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
-          "media4": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img img-responsive post-thumb",
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/blog/4.jpg"
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title4": "Bakery egg foods around the world",
-          "info4": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
-          "text4": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "msg-box21",
-          "_anchor": "msg-box21-2u"
-        },
-        {
-          "_params": {
-            "showTitle": false,
-            "paddingTop": "0",
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#39bfc3",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
-          },
-          "title": "12 Column Width",
-          "text": "La diversión sana con las diferentes edades que integran una familia es posible, siempre y cuando se tenga la disposición y el compromiso en cada uno de los integrantes.\n<br><br>El Objetivo es integrar a la comunidad CAP en una actividad deportiva, de esparcimiento, donde todos los integrantes de la familia pasen un rato agradable, fortaleciendo su habilidad de comunicación y lazos afectivos; con la capacidad de desarrollar estrategias en su participación.\nEn este evento, cada familia es un equipo y juntos llegan a la meta. En el recorrido encuentran retos, laberintos, túneles, agua, etc. Así es como en familia podemos sentar bases sólidas para la felicidad y éxito de nuestros hijos.\n<br><br><b>Lo que necesitan para participar es inscribirse, usar su ropa deportiva favorita y muchas ganas de divertirse.\n<br></b><br>Contamos con el valioso apoyo del departamento de Deportes bajo la dirección del Prof. José Manuel González y su equipo de profesores, ellos están a cargo de la logística del evento;\ndesarrollan cada estación y califican la participación de cada familia.\nEl Comité de Prevención Integral, eje padres de familia les proporciona un área de esparcimiento y de ricos alimentos para desayunar.\nCada vez que compran en nuestra tienda contribuyen a que el Comité de Prevención Integral continúe realizando las actividades de convivencia familiar.&nbsp;<br>",
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "msg-box11",
-          "_anchor": "msg-box11-2r",
-          "_styles": {
-            "P": {
-              "color": "#ededed"
-            }
-          }
-        },
-        {
-          "_params": {
-            "bgImageRadio": false,
-            "paddingTop": "4",
-            "paddingBottom": 2,
-            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#d83a70",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
-          },
-          "media1": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img img-responsive post-thumb",
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/familyfunrun-1000x458.png",
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title1": "Bakery egg foods around the world",
-          "info1": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
-          "text1": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
-          "media2": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img img-responsive post-thumb",
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/blog/2.jpg"
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title2": "Bakery egg foods around the world",
-          "info2": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
-          "text2": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
-          "media3": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img img-responsive post-thumb",
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/blog/3.jpg"
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title3": "Bakery egg foods around the world",
-          "info3": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
-          "text3": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
-          "media4": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img img-responsive post-thumb",
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/blog/4.jpg"
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title4": "Bakery egg foods around the world",
-          "info4": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
-          "text4": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "msg-box21",
-          "_anchor": "msg-box21-2s"
-        },
-        {
-          "_params": {
-            "showTitle": false,
-            "paddingTop": "0",
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#d83a70",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
-          },
-          "title": "12 Column Width",
-          "text": "Correr en familia es posible haciendo equipo, apoyándonos y animándonos los unos a los otros.\n<br>Con esta carrera buscamos integrar a las familias, donde todos los miembros pasen una mañana divertida, fortaleciendo la comunicación y lazos afectivos.\n<br>\n<br>Cada familia es un equipo y juntos llegan a la meta. En el recorrido deben avanzar unidos, un gran reto cuando somos de diferentes edades. Así es como en familia podemos sentar bases sólidas para la felicidad y éxito de nuestros hijos.<br>\n<br><b>Para participar se inscriben, usan su ropa deportiva favorita y mucho ánimo.\n</b><br><b><br></b>Contamos con el valioso apoyo del departamento de Deportes bajo la dirección del Prof. José Manuel González y su equipo de profesores, ellos están a cargo de la logística del evento; desarrollan el circuito y califican la participación de cada familia.\nAl terminar el circuito, el Comité de Prevención Integral, eje padres de familia, tiene preparado un espacio de entretenimiento con inflables de agua, música y comida para desayunar.\n<br><br><b>Cada vez que compran en nuestra tienda contribuyen a que el Comité de Prevención Integral continúe realizando las actividades de convivencia familiar.&nbsp;</b><br>",
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "msg-box11",
-          "_anchor": "msg-box11-2v",
-          "_styles": {
-            "P": {
-              "color": "#ffffff"
-            }
-          }
-        },
-        {
-          "_params": {
-            "bgImageRadio": false,
-            "paddingTop": "4",
-            "paddingBottom": 2,
-            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#765ca6",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
-          },
-          "media1": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img img-responsive post-thumb",
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/fiestanavidena-1000x458.png",
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title1": "Bakery egg foods around the world",
-          "info1": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
-          "text1": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
-          "media2": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img img-responsive post-thumb",
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/blog/2.jpg"
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title2": "Bakery egg foods around the world",
-          "info2": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
-          "text2": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
-          "media3": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img img-responsive post-thumb",
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/blog/3.jpg"
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title3": "Bakery egg foods around the world",
-          "info3": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
-          "text3": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
-          "media4": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img img-responsive post-thumb",
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/blog/4.jpg"
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title4": "Bakery egg foods around the world",
-          "info4": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
-          "text4": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "msg-box21",
-          "_anchor": "msg-box21-2w"
-        },
-        {
-          "_params": {
-            "showTitle": false,
-            "paddingTop": "1",
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#765ca6",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
-          },
-          "title": "12 Column Width",
-          "text": "Una emotiva celebración en familia, cada año los participantes conmovidos por los deseos de paz, amor, unión, comparten gratos momentos.\n<br>En este evento disfrutan del espíritu navideño con el tradicional encendido del árbol, el coro integrado por niños voluntarios de primaria y sus tradicionales villancicos, el taller de esferas y el muro de los buenos deseos.\nUna vez más reforzamos la importancia de estar juntos conviviendo en familia fortaleciendo los lazos y la comunicación para formar niños fuertes y seguros para enfrentar los retos de la vida.\n<br><br>Desde luego no puede faltar un rico ponche o café y esquites para el frío, unas tradicionales chalupas o tacos y los deliciosos churros.\n<br>Les invitamos a participar, es una noche llena de música, comida y diversión con el toque de la unión familiar.\n<br><br><b>Para asistir es importante el registro, confirmen la asistencia de su familia.\n<br><br>Cada vez que compran en nuestra tienda contribuyen a que el Comité de Prevención Integral continúe realizando las actividades de convivencia familiar.&nbsp;</b><br>",
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "msg-box11",
-          "_anchor": "msg-box11-2x",
-          "_styles": {
-            "P": {
-              "color": "#ffffff"
-            }
-          }
-        },
-        {
-          "_params": {
-            "bgImageRadio": false,
-            "paddingTop": "4",
-            "paddingBottom": 2,
-            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
-            "parallax": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#3a3a3a",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
             "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
-          "media1": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img img-responsive post-thumb",
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/campamentopapayyo-1-1000x458.png",
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title1": "Bakery egg foods around the world",
-          "info1": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
-          "text1": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
-          "media2": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img img-responsive post-thumb",
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/blog/2.jpg"
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title2": "Bakery egg foods around the world",
-          "info2": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
-          "text2": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
-          "media3": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img img-responsive post-thumb",
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/blog/3.jpg"
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title3": "Bakery egg foods around the world",
-          "info3": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
-          "text3": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
-          "media4": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img img-responsive post-thumb",
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/blog/4.jpg"
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title4": "Bakery egg foods around the world",
-          "info4": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
-          "text4": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
-          "alias": "unicore/components",
+          "text": "Copyright (c) 2018&nbsp;<a href=\"http://bspacemx.com/\" class=\"text-success\">BSpace Digital Agency.</a>",
+          "alias": "colorm/components",
           "_tags": [
             "Tema"
           ],
-          "_name": "msg-box21",
-          "_anchor": "msg-box21-2y"
-        },
-        {
-          "_params": {
-            "showTitle": false,
-            "paddingTop": "0",
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#3a3a3a",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
-          },
-          "title": "12 Column Width",
-          "text": "Con estos campamentos promovemos una mayor integración entre padres e hijos, creando grandes lazos a través de un fin de semana inolvidable y de grandes experiencias. Continuamos así con nuestro compromiso para fortalecer la convivencia familiar como herramienta fundamental en la prevención de adicciones.\n<br>\n<br>Estos campamentos se realizan en espacios adecuados para las actividades, el papá y el hijo juegan juntos y comparten momentos emotivos desde el momento de abordar el autobús.\n<br><br>Para la realización de esta actividad El Comité de Prevención Integral, eje padres de familia, invita cada año a Eduplay, empresa dedicada a la realización de campamentos en sedes cercanas a la Ciudad de Puebla.\n<b>Todo lo relacionado con inscripción, pagos y desarrollo de la actividad corre a cargo de Eduplay.\n</b><br>El Comité sólo coordina la invitación y las juntas informativas.&nbsp;<br>",
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "msg-box11",
-          "_anchor": "msg-box11-2z",
-          "_styles": {
-            "P": {
-              "color": "#ffffff"
-            }
-          }
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "bgImageRadio": false,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#29d9c2",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
-          },
-          "title": "Regístrate a nuestro siguiente evento",
-          "text": "Lorem ipsum dolor sit amet consec tetur adipiscing elit.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font cta-btn btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Pregístrate a nuestro siguiente evento</a>",
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "msg-box9",
-          "_anchor": "msg-box9-30",
-          "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section--relative\" data-rv-view=\"292\" style=\"background-color: rgb(41, 217, 194);\">\n    <div class=\"cta-wrap bg-primary\" style=\"padding-top: 65px; padding-bottom: 65px;\">\n        \n        <div class=\"container\">\n            <div><a class=\"btn mbr-title-font cta-btn btn-default mbr-editable-button\" href=\"#\" code-editable-id=\"194\">Regístrate a nuestro siguiente evento</a></div>\n            </div>\n        </div>\n</section>",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_customCSS": ".btn {\n    margin: 0 auto;\n    float: left;\n}",
-          "_customTemplate": true
-        },
-        {
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#765ca6",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
-          },
-          "text": "© 2016. comite cap. All rights reserved.",
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "footer1",
-          "_anchor": "footer1-2c"
+          "_name": "footer2",
+          "_anchor": "footer2-1b"
         }
       ]
     },
     "nosotros.html": {
       "settings": {
         "title": "Nosotros",
-        "order": 2
-      },
-      "components": [
-        {
-          "_inherit": "dropdown-menu",
-          "_params": {
-            "logo": false,
-            "showBrand": false,
-            "hideButtons": true,
-            "sticky": true,
-            "transparent": true,
-            "bgColor": "#fff",
-            "fontSize": "1",
-            "fontName": {},
-            "fontColor": "#03a9f4"
-          },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Inicio</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">secciones</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"nosotros.html\">Nosotros</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html\">Eventos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"galeria.html#parallax1-1y\">Galería</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Blog</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"https://mobirise.com/\">For Windows</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger mbr-title-font\" href=\"https://mobirise.com/\">For Mac</a></li>",
-          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "_tags": [
-            "Tema"
-          ],
-          "_styles": {
-            ".hide-buttons [data-button]": {
-              "display": "none !important"
-            },
-            ".navbar-brand a": {},
-            ".nav .link, .dropdown-item": {
-              "font-size": "1em",
-              "color": "#03a9f4"
-            },
-            ".navbar, .dropdown-menu": {
-              "background": "#fff"
-            },
-            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
-              "background": "#f5f5f5"
-            },
-            ".navbar-toggler": {
-              "color": "#03a9f4"
-            }
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/comite-2-113x128.png",
-              "class": "",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
-            }
-          },
-          "_name": "dropdown-menu1",
-          "_anchor": "dropdown-menu1-y"
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/gal04-1200x900.jpg",
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.75
-          },
-          "title": "Quiénes somos",
-          "text": "Somos un grupo de padres entusiastas",
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "parallax1",
-          "_anchor": "parallax1-13"
-        },
-        {
-          "_params": {
-            "blocks": "5",
-            "bgImageRadio": false,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5,
-            "icon1": "fa-calendar",
-            "icon2": "fa-calendar",
-            "icon3": "fa-rocket",
-            "icon4": "fa-child",
-            "icon5": "fa-globe"
-          },
-          "title1": "2003",
-          "title2": "2008",
-          "title3": "visión",
-          "title4": "filosofía",
-          "title5": "objetivos",
-          "text1": "En el año 2003 un grupo de docentes y directores del Colegio participaron en el congreso anual de la TRI Association que se celebró en la ciudad de Panamá. Uno de los talleres que se ofrecieron fue el de “Building Healthy Schools” por la organización estadounidense Freedom from Chemical Dependency (FCD), que apoya a las escuelas con asesorías, talleres y aplicación de encuestas a alumnos en cuanto al manejo del tema del uso y abuso de sustancias químicas adictivas por parte de los jóvenes. Desde entonces el Colegio adoptó el modelo que ésta organización propone y se estableció el Comité de Prevención Integral, que tiene varios ejes de trabajo, entre ellos el de los padres de familia.",
-          "text2": "En el año 2008 un grupo entusiasta formó el eje de padres de familia. Desde entonces el trabajo del grupo ha sido constante y ha ido creciendo en beneficio de la convivencia saludable de las familias de nuestra comunidad. La base de su trabajo se basa en los siguientes principios:",
-          "text3": "Mantener una comunidad libre de adicciones, consciente de las causas y efectos en el uso y abuso del tabaco, alcohol y otras drogas",
-          "text4": "Es un grupo de padres de familia que trabajan con entrega y servicio, convencidos de que las adicciones (tabaco, alcohol y otras drogas) pueden evitarse recurriendo a la información y capacitación constante.",
-          "text5": "- Coordinación y difusión de programas y actividades de prevención del consumo de alcohol, tabaco y otras drogas (ATOD) dirigidos a padres de familia.\n<br>- Lograr la participación de padres de familia en la prevención de ATOD\n<br>- Colaboración y participación con el Comité de Prevención Integral e instrumentación de planes y programas para la prevención de adicciones&nbsp;<br>- La participación de padres de familia de los distintos departamentos enriquece la tarea que se han propuesto y las puertas están abiertas a quienes gusten sumarse.",
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "content7",
-          "_anchor": "content7-11",
-          "_customCSS": ".timeline-badge {\n    background-color: #6a72ff;\n}"
-        },
-        {
-          "_params": {
-            "showTitle": false,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/gal04-1200x900.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": "0.7"
-          },
-          "title": "12 Column Width",
-          "text": "Los programas que el comité de prevención integral, eje padres de familia tiene programados para este ciclo escolar 2018-2019 son los siguientes:\n<br><br><b>Family Challenge – Octubre 13\n<br>Encendido de árbol de Navidad – Noviembre 30\n<br>Campamentos Papá-hijo – febrero a mayo 2019\n<br>Cine bajo las estrellas – marzo 29\n<br></b>\n<br>El comité tiene la asesoría permanente de la maestra Sylvia Bretón de Beyrute, Directora del Preescolar y de Medardo Rivera Guzmán, Asistente de la Dirección general.\n<br>\n<br>Medardo Rivera Guzmán\n<br>Septiembre 25 de 2018&nbsp;<br>",
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "msg-box11",
-          "_anchor": "msg-box11-2h",
-          "_styles": {
-            "P": {
-              "color": "#ffffff",
-              "text-align": "left"
-            },
-            "B": {
-              "font-size": "16px"
-            }
-          }
-        },
-        {
-          "_params": {
-            "showTitle": false,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#29d9c2",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
-          },
-          "title": "12 Column Width",
-          "text": "El comité tiene la asesoría permanente de la maestra Sylvia Bretón de Beyrute, Directora del Preescolar y de Medardo Rivera Guzmán, Asistente de la Dirección general.<br><br><b>Medardo Rivera Guzmán<br></b>Septiembre 25 de 2018",
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "msg-box11",
-          "_anchor": "msg-box11-16",
-          "_styles": {
-            "P": {
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-              "font-size": "20px",
-              "text-align": "center",
-              "color": "#ffffff"
-            },
-            "B": {
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-              "color": "#765ca6"
-            }
-          }
-        },
-        {
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#765ca6",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
-          },
-          "text": "© 2016. comite cap. All rights reserved.",
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "footer1",
-          "_anchor": "footer1-2c"
-        }
-      ]
-    },
-    "integrantes.html": {
-      "settings": {
-        "title": "Integrantes",
         "order": 1
       },
       "components": [
         {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#30cfde"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#30cfde"
+            },
+            ".link, .dropdown-item": {
+              "color": "#30cfde"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#30cfde"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#30cfde",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#5a2587!important"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#ffffff",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#30cfde",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">Inicio</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\" aria-expanded=\"false\">Nosotros</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\" aria-expanded=\"false\">Eventos</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\" aria-expanded=\"false\">Galería</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\" aria-expanded=\"false\">Blog</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"contactocap.html#call4-1q\">Contáctanos</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/comitelogoh-311x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-2f"
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#3a3a3a",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2018&nbsp;<a href=\"http://bspacemx.com/\" class=\"text-success\">BSpace Digital Agency.</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-2g"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#93a3a7",
+              "font-style": "italic"
+            },
+            ".mbr-section-title": {
+              "text-align": "center"
+            },
+            ".mbr-section-text": {
+              "text-align": "center"
+            }
+          },
           "_params": {
             "showTitle": true,
             "showText": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
+            "showButtons": false,
+            "buttonAlign": "center",
+            "showArrow": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/gal01-1200x900.jpg",
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.75
-          },
-          "title": "Integrantes",
-          "text": "Conoce a las personas que forman parte de nuestro comité",
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "parallax1",
-          "_anchor": "parallax1-21"
-        },
-        {
-          "_inherit": "dropdown-menu",
-          "_params": {
-            "logo": false,
-            "showBrand": false,
-            "hideButtons": true,
-            "sticky": true,
-            "transparent": true,
-            "bgColor": "#fff",
-            "fontSize": "1",
-            "fontName": {},
-            "fontColor": "#03a9f4"
-          },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Inicio</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">secciones</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"nosotros.html\">Nosotros</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html\">Eventos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"galeria.html#parallax1-1y\">Galería</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Blog</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"https://mobirise.com/\">For Windows</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger mbr-title-font\" href=\"https://mobirise.com/\">For Mac</a></li>",
-          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "_tags": [
-            "Tema"
-          ],
-          "_styles": {
-            ".hide-buttons [data-button]": {
-              "display": "none !important"
-            },
-            ".navbar-brand a": {},
-            ".nav .link, .dropdown-item": {
-              "font-size": "1em",
-              "color": "#03a9f4"
-            },
-            ".navbar, .dropdown-menu": {
-              "background": "#fff"
-            },
-            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
-              "background": "#f5f5f5"
-            },
-            ".navbar-toggler": {
-              "color": "#03a9f4"
-            }
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/comite-2-113x128.png",
-              "class": "",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
-            }
-          },
-          "_name": "dropdown-menu1",
-          "_anchor": "dropdown-menu1-1z"
-        },
-        {
-          "_params": {
-            "showTitle": false,
-            "showText": false,
-            "showMedia": true,
-            "showName": true,
-            "showOccupation": true,
-            "showTexts": true,
-            "showSocials": true,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#f5f5f5",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
-          },
-          "header": "Integrantes",
-          "subheader": "Conoce a las personas que conforman nuestro comité",
-          "media1": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/1.jpg",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI"
-            }
-          },
-          "title1": "Joseph Doe",
-          "subtitle1": "Maestro",
-          "caption1": "Sed ut unde omnis iste natus error sit accus antium dolor emque laudantium.",
-          "links1": "<li><a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"fa fa-facebook\"></i></a></li><li><a class=\"social fa\" data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"fa fa-twitter\"></i></a></li><li><a class=\"fa\" data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"fa fa-google-plus\"></i></a></li>",
-          "media2": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/2.jpg",
-              "class": "mbr-figure__img img-responsive",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI"
-            }
-          },
-          "title2": "Maria Wade",
-          "subtitle2": "psicóliga",
-          "caption2": "Sed ut unde omnis iste natus error sit accus antium dolor emque laudantium.",
-          "links2": "<li><a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"fa fa-facebook\"></i></a></li><li><a class=\"social fa\" data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"fa fa-twitter\"></i></a></li><li><a class=\"fa\" data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"fa fa-google-plus\"></i></a></li>",
-          "media3": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/3.jpg",
-              "class": "mbr-figure__img img-responsive",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI"
-            }
-          },
-          "title3": "David Mach",
-          "subtitle3": "Padre de familia",
-          "caption3": "Sed ut unde omnis iste natus error sit accus antium dolor emque laudantium.",
-          "links3": "<li><a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"fa fa-facebook\"></i></a></li><li><a class=\"social fa\" data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"fa fa-twitter\"></i></a></li><li><a class=\"fa\" data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"fa fa-google-plus\"></i></a></li>",
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "features2",
-          "_anchor": "features2-22"
-        },
-        {
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#765ca6",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
-          },
-          "text": "© 2016. comite cap. All rights reserved.",
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "footer1",
-          "_anchor": "footer1-2c"
-        }
-      ]
-    },
-    "contacto.html": {
-      "settings": {
-        "title": "Contacto",
-        "order": 5
-      },
-      "components": [
-        {
-          "_inherit": "dropdown-menu",
-          "_params": {
-            "logo": false,
-            "showBrand": false,
-            "hideButtons": true,
-            "sticky": true,
-            "transparent": true,
-            "bgColor": "#fff",
-            "fontSize": "1",
-            "fontName": {},
-            "fontColor": "#03a9f4"
-          },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Inicio</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">secciones</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"nosotros.html\">Nosotros</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html\">Eventos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"galeria.html#parallax1-1y\">Galería</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Blog</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"https://mobirise.com/\">For Windows</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger mbr-title-font\" href=\"https://mobirise.com/\">For Mac</a></li>",
-          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "_tags": [
-            "Tema"
-          ],
-          "_styles": {
-            ".hide-buttons [data-button]": {
-              "display": "none !important"
-            },
-            ".navbar-brand a": {},
-            ".nav .link, .dropdown-item": {
-              "font-size": "1em",
-              "color": "#03a9f4"
-            },
-            ".navbar, .dropdown-menu": {
-              "background": "#fff"
-            },
-            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
-              "background": "#f5f5f5"
-            },
-            ".navbar-toggler": {
-              "color": "#03a9f4"
-            }
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/comite-2-113x128.png",
-              "class": "",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
-            }
-          },
-          "_name": "dropdown-menu1",
-          "_anchor": "dropdown-menu1-23"
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showForm": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/gal05-1200x900.jpg",
             "parallax": true,
             "bgColorRadio": false,
-            "bgColor": "#4c6972",
+            "bgColor": "#2c3e50",
             "bgVideoRadio": false,
             "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
             },
             "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.75,
-            "showIcons": true,
-            "iconsColor": "#fff",
-            "icon1": "fa-bolt",
-            "icon2": "fa-magnet"
+            "overlayColor": "#2c3e50",
+            "overlayOpacity": "0.8"
           },
-          "title": "¿tienes dudas?",
-          "title1": "Déjanos un mensaje",
-          "title2": "ATTRACT VISITORS",
-          "title3": "MAGNET ICON",
-          "text1": "Lorem ipsum dolor sit amet consec tetur elit amet voluptas accusamus dolorum veritatis ea odio dolor emque.",
-          "text2": "Lorem ipsum dolor sit amet consec tetur elit amet voluptas accusamus dolorum veritatis ea odio dolor emque.",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Enviar</a>",
-          "form": {
-            "title": "MESSAGE",
-            "action": "comite@cap.edu.mx",
-            "alerts": {
-              "success": "¡Gracias! Nos pondremos en contacto contigo."
-            },
-            "fields": {
-              "name": {
-                "visible": true,
-                "title": "First Name",
-                "customTitle": "Nombre"
-              },
-              "lastName": {
-                "visible": true,
-                "title": "Last Name",
-                "customTitle": "Apellido"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email Address",
-                "customTitle": "Correo"
-              },
-              "phone": {
-                "visible": true,
-                "title": "Phone No.",
-                "customTitle": "Teléfono"
-              }
-            }
-          },
-          "alias": "unicore/components",
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "title": "<b>Nosotros</b>",
+          "text": "Comité de Prevención Integral del Colegio Americano de Puebla",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-text\" href=\"https://mobirise.com\">learn more</a>",
+          "alias": "colorm/components",
           "_tags": [
             "Tema"
           ],
           "_name": "header1",
-          "_anchor": "header1-27"
-        },
-        {
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.75,
-            "iconsColor": "@primaryColor",
-            "icon1": "",
-            "icon2": "fa-mobile",
-            "icon3": "fa-envelope",
-            "icon4": ""
-          },
-          "title": "o contáctanos",
-          "text": "Directamente a nuestro correo o teléfono.",
-          "title1": "Call Us",
-          "title2": "teléfono",
-          "title3": "email",
-          "title4": "Email",
-          "text1": "(080) 123 456 7890",
-          "text2": "(222) 3030 400",
-          "text3": "comite@cap.edu.mx",
-          "text4": "comite@cap.edu.mx",
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "contacts5",
-          "_anchor": "contacts5-28",
-          "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section--relative\" data-rv-view=\"188\" style=\"background-color: rgb(255, 255, 255);\">\n        \n    <div id=\"contact-info\" style=\"padding-top: 100px; padding-bottom: 100px;\">\n        <div class=\"container\">\n            <div class=\"section-head text-center col-md-8 col-md-offset-2 space50\">\n                <h1 class=\"mbr-title-font mbr-editable-content\" code-editable-id=\"104\">o contáctanos</h1>\n                <p class=\"mbr-editable-content\" code-editable-id=\"105\">Directamente a nuestro correo o teléfono.</p>\n            </div>\n\n            <div class=\"row\">\n                <div class=\"col-lg-3 col-sm-6\">\n                    <!-- <div class=\"c-info\">\n                        <i class=\"fa mbr-primary-color\"></i>\n                        <h5 class=\"mbr-title-font mbr-editable-content\">Call Us</h5>\n                        <p class=\"mbr-editable-content\">(080) 123 456 7890</p>\n                    </div> -->\n                </div>\n\n                <div class=\"col-lg-3 col-sm-6\">\n                    <div class=\"c-info\">\n                        <i class=\"fa mbr-primary-color fa-mobile\"></i>\n                        <h5 class=\"mbr-title-font mbr-editable-content\" code-editable-id=\"106\">teléfono</h5>\n                        <p class=\"mbr-editable-content\" code-editable-id=\"107\">(222) 3030 400</p>\n                    </div>\n                </div>\n\n                <div class=\"col-lg-3 col-sm-6\">\n                    <div class=\"c-info\">\n                        <i class=\"fa mbr-primary-color fa-envelope\"></i>\n                        <h5 class=\"mbr-title-font mbr-editable-content\" code-editable-id=\"108\">email</h5>\n                        <p class=\"mbr-editable-content\" code-editable-id=\"109\"><a href=\"mailto:comite@cap.edu.mx\">comite@cap.edu.mx</a></p>\n                    </div>\n                </div>\n\n                <div class=\"col-lg-3 col-sm-6\">\n                    <!-- <div class=\"c-info\">\n                        <i class=\"fa mbr-primary-color\"></i>\n                        <h5 class=\"mbr-title-font mbr-editable-content\">Email</h5>\n                        <p class=\"mbr-editable-content\">comite@cap.edu.mx</p>\n                    </div> -->\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_customCSS": "",
-          "_customTemplate": true
+          "_anchor": "header1-2h"
         },
         {
           "_params": {
             "showTitle": true,
-            "showText": false,
-            "showButtons": true,
+            "showSubtitle": false,
+            "showDates": true,
+            "blocks": "4",
+            "cardsColor": "#f9f9f9",
             "paddingTop": 2,
             "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
-            "parallax": false,
+            "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#29d9c2",
+            "bgColor": "#ffffff",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/comite-1-2000x1188.jpg",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -1628,254 +1702,237 @@
             "overlayColor": "#151515",
             "overlayOpacity": 0.5
           },
-          "title": "visita la página oficial del colegio americano",
-          "text": "Lorem ipsum dolor sit amet consec tetur adipiscing elit.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font cta-btn btn-default\" href=\"https://cap.edu.mx\" data-toolbar=\"-mbrBtnMove\">Pcolegio americano</a>",
-          "alias": "unicore/components",
+          "mainTitle": "Nuestra historia",
+          "mainSubtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+          "title1": "1. &nbsp;El inicio",
+          "title2": "2. Entusiastas",
+          "title3": "3. Visión",
+          "title4": "4. Filosofía",
+          "title5": "5. Awesome Reports",
+          "title6": "6. Multi Homepages",
+          "title7": "7. Responsive Design",
+          "title8": "8. Smart Watch",
+          "title9": "9. Design out of the box",
+          "title10": "10. Awesome Reports",
+          "title11": "11. Design out of the box",
+          "title12": "12. Awesome Reports",
+          "date1": "2003",
+          "date2": "2008",
+          "date3": "2008",
+          "date4": "2008",
+          "date5": "5 May 2016",
+          "date6": "6 June 2016",
+          "date7": "7 July 2016",
+          "date8": "8 August 2016",
+          "date9": "9 September 2016",
+          "date10": "10 October 2016",
+          "date11": "11 November 2016",
+          "date12": "12 December 2016",
+          "text1": "En el año 2003 un grupo de docentes y directores del Colegio participaron en el congreso anual de la TRI Association que se celebró en la ciudad de Panamá. Uno de los talleres que se ofrecieron fue el de “Building Healthy Schools” por la organización estadounidense Freedom from Chemical Dependency (FCD), que apoya a las escuelas con asesorías, talleres y aplicación de encuestas a alumnos en cuanto al manejo del tema del uso y abuso de sustancias químicas adictivas por parte de los jóvenes. Desde entonces el Colegio adoptó el modelo que ésta organización propone y se estableció el Comité de Prevención Integral, que tiene varios ejes de trabajo, entre ellos el de los padres de familia. ",
+          "text2": "En el año 2008 un grupo entusiasta formó el eje de padres de familia. Desde entonces el trabajo del grupo ha sido constante y ha ido creciendo en beneficio de la convivencia saludable de las familias de nuestra comunidad. La base de su trabajo se basa en los siguientes principios: ",
+          "text3": "Mantener una comunidad libre de adicciones, consciente de las causas y efectos en el uso y abuso del tabaco, alcohol y otras drogas ",
+          "text4": "Es un grupo de padres de familia que trabajan con entrega y servicio, convencidos de que las adicciones (tabaco, alcohol y otras drogas) pueden evitarse recurriendo a la información y capacitación constante. ",
+          "text5": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text6": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text7": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text8": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text9": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text10": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text11": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text12": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "alias": "colorm/components",
           "_tags": [
             "Tema"
           ],
-          "_name": "msg-box1",
-          "_anchor": "msg-box1-2a",
-          "_customCSS": "",
-          "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section--relative\" data-rv-view=\"193\" style=\"background-color: rgb(41, 217, 194);\">\n    <div class=\"cta-wrap bg-dark\" style=\"padding-top: 80px; padding-bottom: 65px;\">\n        \n        <div class=\"container\">\n            <div class=\"col-md-9\">\n                <h2 class=\"mbr-title-font mbr-editable-content\" code-editable-id=\"96\">visita la página oficial del colegio americano</h2>\n                \n            </div>\n            <div class=\"col-md-3\">\n                <div><a class=\"btn mbr-title-font cta-btn btn-default mbr-editable-button\" href=\"https://cap.edu.mx\" code-editable-id=\"97\">Colegio americano</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_customTemplate": true
-        }
-      ]
-    },
-    "galeria.html": {
-      "settings": {
-        "title": "Galeria",
-        "order": 4
-      },
-      "components": [
-        {
-          "_inherit": "dropdown-menu",
-          "_params": {
-            "logo": false,
-            "showBrand": false,
-            "hideButtons": true,
-            "sticky": true,
-            "transparent": true,
-            "bgColor": "#fff",
-            "fontSize": "1",
-            "fontName": {},
-            "fontColor": "#03a9f4"
-          },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Inicio</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">secciones</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"nosotros.html\">Nosotros</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"eventoscap.html\">Eventos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"galeria.html#parallax1-1y\">Galería</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Blog</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"https://mobirise.com/\">For Windows</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger mbr-title-font\" href=\"https://mobirise.com/\">For Mac</a></li>",
-          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "_tags": [
-            "Tema"
-          ],
+          "_name": "features9",
+          "_anchor": "features9-3v",
           "_styles": {
-            ".hide-buttons [data-button]": {
-              "display": "none !important"
+            "H4": {
+              "color": "#5a2587"
             },
-            ".navbar-brand a": {},
-            ".nav .link, .dropdown-item": {
-              "font-size": "1em",
-              "color": "#03a9f4"
+            "P": {
+              "color": "#333333"
             },
-            ".navbar, .dropdown-menu": {
-              "background": "#fff"
+            ".mbr-section-title": {
+              "color": "#3a3a3a"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-weight": "700",
+              "letter-spacing": ".5vw",
+              "text-transform": "uppercase"
             },
-            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
-              "background": "#f5f5f5"
-            },
-            ".navbar-toggler": {
-              "color": "#03a9f4"
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "letter-spacing": "2px",
+              "color": "#fff"
             }
           },
-          "logo": {
-            "image": {
+          "_params": {
+            "showTitle": true,
+            "showImages": false,
+            "showTitles": true,
+            "ShowTexts": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": "4",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/gal04-1200x900.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#302c59",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#302c59",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "linkInNewWindow": false,
+              "name": "target",
+              "family": "et-line",
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/comite-2-113x128.png",
-              "class": "",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "",
+              "size": 0,
+              "color": "#3498db"
             }
           },
-          "_name": "dropdown-menu1",
-          "_anchor": "dropdown-menu1-1u"
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "linkInNewWindow": false,
+              "name": "profile-female",
+              "family": "et-line",
+              "active": true,
+              "link": "",
+              "size": 0,
+              "color": "#3498db"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "linkInNewWindow": false,
+              "name": "chat",
+              "family": "et-line",
+              "active": true,
+              "link": "",
+              "size": 0,
+              "color": "#3498db"
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "linkInNewWindow": false,
+              "name": "aperture",
+              "family": "et-line",
+              "active": true,
+              "link": "",
+              "size": 0,
+              "color": "#3498db"
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "name": "globe",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fc7a60",
+              "family": "cm-icon"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "name": "compass",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fc7a60",
+              "family": "cm-icon"
+            }
+          },
+          "title": "Objetivos",
+          "title1": "Bootstrap 4",
+          "subtitle1": "Coordinación de programas",
+          "caption1": "Coordinación y difusión de programas y actividades de prevención del consumo de alcohol, tabaco y otras drogas (ATOD) dirigidos a padres de familia",
+          "title2": "Responsive",
+          "subtitle2": "Participación",
+          "caption2": "Lograr la participación de padres de familia",
+          "title3": "Web Fonts",
+          "subtitle3": "colaboración",
+          "caption3": "Colaboración y participación en el Comité de Prevención Integral e instrumentación de planes y programas para la prevención de adicciones.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Integración",
+          "caption4": "La participación de padres de familia de los distintos departamentos enriquece la tarea que se han propuesto y las puertas están abiertas para quienes gusten sumarse.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "buttons": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary\">learn more</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "features16",
+          "_anchor": "features16-2j"
         },
         {
           "_params": {
             "showTitle": true,
+            "showSubtitle": true,
             "showText": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/gal01-1200x900.jpg",
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.75
-          },
-          "title": "Galería",
-          "text": "Encuentra las fotos de los eventos pasados.",
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "parallax1",
-          "_anchor": "parallax1-1y"
-        },
-        {
-          "_params": {
-            "fullWidth": false,
-            "filter": true,
-            "paddingTop": 0,
-            "paddingBottom": 3,
-            "noGutter": true,
-            "showText": false,
-            "showBullets": true,
-            "bgColor": "#fff",
-            "images": [
-              {
-                "tags": "Fun Run",
-                "image": "@PROJECT_PATH@/assets/images/gal01-1200x900.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gal01-1200x900-800x600.jpg",
-                "caption": "Type caption here",
-                "active": false,
-                "alt": "",
-                "title": ""
-              },
-              {
-                "tags": "Navidad",
-                "image": "@PROJECT_PATH@/assets/images/gal02-1200x900.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gal02-1200x900-800x600.jpg",
-                "caption": "Type caption here",
-                "active": false,
-                "alt": "",
-                "title": ""
-              },
-              {
-                "tags": "Navidad",
-                "image": "@PROJECT_PATH@/assets/images/gal03-1200x900.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gal03-1200x900-800x600.jpg",
-                "caption": "Type caption here",
-                "active": false,
-                "alt": "",
-                "title": ""
-              },
-              {
-                "tags": "Cine",
-                "image": "@PROJECT_PATH@/assets/images/gal04-1200x900.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gal04-1200x900-800x600.jpg",
-                "caption": "Type caption here",
-                "active": false,
-                "alt": "",
-                "title": ""
-              },
-              {
-                "tags": "Conferencias",
-                "image": "@PROJECT_PATH@/assets/images/gal05-1200x900.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gal05-1200x900-800x600.jpg",
-                "caption": "Type caption here",
-                "active": false,
-                "alt": "",
-                "title": ""
-              },
-              {
-                "tags": "Navidad",
-                "image": "@PROJECT_PATH@/assets/images/gal06-1200x900.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gal06-1200x900-800x600.jpg",
-                "caption": "Type caption here",
-                "active": false,
-                "alt": "",
-                "title": ""
-              },
-              {
-                "tags": "Fun Run",
-                "image": "@PROJECT_PATH@/assets/images/gal07-1200x900.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gal07-1200x900-800x600.jpg",
-                "caption": "Type caption here",
-                "active": false,
-                "alt": "",
-                "title": ""
-              },
-              {
-                "tags": "Fun Run",
-                "image": "@PROJECT_PATH@/assets/images/gal08-1200x900.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gal08-1200x900-800x600.jpg",
-                "caption": "Type caption here",
-                "active": false,
-                "alt": "",
-                "title": ""
-              },
-              {
-                "tags": "Cine",
-                "image": "@PROJECT_PATH@/assets/images/gal09-1200x900.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gal09-1200x900-800x600.jpg",
-                "caption": "Type caption here",
-                "active": false,
-                "alt": "",
-                "title": ""
-              },
-              {
-                "tags": "Fun Run",
-                "image": "@PROJECT_PATH@/assets/images/gal10-1200x900.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gal10-1200x900-800x600.jpg",
-                "caption": "Type caption here",
-                "active": false,
-                "alt": "",
-                "title": ""
-              },
-              {
-                "tags": "Cine",
-                "image": "@PROJECT_PATH@/assets/images/gal11-1-1200x900.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gal11-1-1200x900-800x600.jpg",
-                "caption": "Type caption here",
-                "active": false,
-                "alt": "",
-                "title": ""
-              },
-              {
-                "tags": "Navidad",
-                "image": "@PROJECT_PATH@/assets/images/gal12-1200x900.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gal12-1200x900-800x600.jpg",
-                "caption": "Type caption here",
-                "active": true,
-                "alt": "",
-                "title": ""
-              }
-            ]
-          },
-          "articleLayout": false,
-          "alias": "unicore/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "gallery2",
-          "_anchor": "gallery2-1x"
-        },
-        {
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
+            "showButtons": false,
+            "bgCardImage": "@PROJECT_PATH@/assets/images/gal06-1200x900.jpg",
+            "paddingTop": 3,
+            "paddingBottom": "3",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/12.jpg",
-            "parallax": false,
+            "bgImage": "@THEME_PATH@/components/_images/grass.jpg",
+            "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#765ca6",
+            "bgColor": "#ecf0f1",
             "bgVideoRadio": false,
             "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
             },
             "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
+            "overlayColor": "#233f5b",
+            "overlayOpacity": 0.8
           },
-          "text": "© 2016. comite cap. All rights reserved.",
-          "alias": "unicore/components",
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/features/03.jpg",
+              "class": ""
+            }
+          },
+          "title": "Medardo Rivera Guzmán",
+          "subtitle": "Septiembre 25 de 2018",
+          "text": "Los programas que el comité de prevención integral, eje padres de familia tienen programados para este ciclo escolar 2018-2019 son los siguientes:<br><br><i><a href=\"eventoscap.html#image2-38\">Familly Challenge - Octubre 13</a><br><a href=\"eventoscap.html#image2-3c\">Encendido del árbol de Navidad - Noviembre 30</a><br><a href=\"eventoscap.html#image2-3e\">Campamentos Papá-hijo - Febrero a Mayo 2019</a><br><a href=\"eventoscap.html#image2-35\">Cine bajo las estrellas - Marzo 29</a></i><br><br>El comité tiene la asesoría permanente de la Mtra Sylvia Bretón de Beyrute, Directora del Preescolar y de Medardo Rivera Guzmán, Asistente de la Dirección General.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">learn more</a>",
+          "alias": "colorm/components",
           "_tags": [
             "Tema"
           ],
-          "_name": "footer1",
-          "_anchor": "footer1-2c"
+          "_name": "testimonials3",
+          "_anchor": "testimonials3-2k",
+          "_styles": {
+            ".mbr-section-text": {
+              "font-size": "16px"
+            }
+          }
         }
       ]
     }
