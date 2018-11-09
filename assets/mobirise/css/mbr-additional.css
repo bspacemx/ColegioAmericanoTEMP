@@ -725,15 +725,15 @@ blockquote {
   color: #ffffff;
 }
 #menu-5 .navbar-toggler {
-  color: #30cfde;
+  color: #8e44ad;
 }
 #menu-5 .close-icon::before,
 #menu-5 .close-icon::after {
-  background-color: #30cfde;
+  background-color: #8e44ad;
 }
 #menu-5 .link,
 #menu-5 .dropdown-item {
-  color: #30cfde;
+  color: #8e44ad;
 }
 #menu-5 .link {
   font-size: 0.875rem;
@@ -752,7 +752,7 @@ blockquote {
 }
 #menu-5 .dropdown-item:hover,
 #menu-5 .dropdown-item:focus {
-  color: #30cfde;
+  color: #8e44ad;
 }
 #menu-5 .link[aria-expanded="true"],
 #menu-5 .dropdown-menu {
@@ -771,7 +771,7 @@ blockquote {
   background: #ffffff;
 }
 #menu-5 .bg-color.transparent .link {
-  color: #30cfde;
+  color: #8e44ad;
   transition: none;
 }
 #menu-5 .bg-color.transparent.opened .link {
@@ -787,6 +787,14 @@ blockquote {
 }
 #footer2-x .mbr-section-text {
   color: #fff;
+}
+#header3-4a .display-1 {
+  font-weight: 700;
+}
+#header3-4a .lead {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 0;
 }
 #header3-43 .display-1 {
   font-weight: 700;

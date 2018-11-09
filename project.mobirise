@@ -45,7 +45,7 @@
     "cookiesAlert": "",
     "gdpr": "",
     "siteUrl": "undefined",
-    "uniqCompNum": 150,
+    "uniqCompNum": 155,
     "versionPublish": "4.8.6",
     "screenshot": "screenshot.png"
   },
@@ -69,13 +69,13 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#30cfde"
+              "color": "#8e44ad"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#30cfde"
+              "background-color": "#8e44ad"
             },
             ".link, .dropdown-item": {
-              "color": "#30cfde"
+              "color": "#8e44ad"
             },
             ".link": {
               "font-size": "0.875rem"
@@ -90,7 +90,7 @@
               "background": "@primaryColor"
             },
             ".dropdown-item:hover, .dropdown-item:focus": {
-              "color": "#30cfde"
+              "color": "#8e44ad"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
               "background": "#e6e6e6"
@@ -102,7 +102,7 @@
               "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
-              "color": "#30cfde",
+              "color": "#8e44ad",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -116,16 +116,16 @@
             }
           },
           "_params": {
-            "logo": false,
+            "logo": true,
             "showBrand": false,
             "hideButtons": false,
             "sticky": true,
             "collapsed": true,
-            "transparent": true,
+            "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": 0.875,
             "fontName": {},
-            "fontColor": "#30cfde",
+            "fontColor": "#8e44ad",
             "fontHoverColor": "@primaryColor"
           },
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">Inicio</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\" aria-expanded=\"false\">Nosotros</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"eventoscap.html\" aria-expanded=\"false\">Eventos</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"galeroacap.html\" aria-expanded=\"false\">Galería</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">Blog</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"contactocap.html\">Contáctanos</a></li>",
@@ -187,6 +187,48 @@
               "color": "#fff",
               "text-transform": "uppercase",
               "margin-bottom": "0"
+            }
+          },
+          "_params": {
+            "showTitle": false,
+            "showText": false,
+            "showButtons": false,
+            "buttonAlign": "left",
+            "showArrow": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/headerhome02-3-1574x1272.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#16a085",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": false,
+            "overlayColor": "#16a085",
+            "overlayOpacity": 0.9
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "title": "BEAUTIFUL<br>MOBILE<br>WEBSITES",
+          "text": "Develop fully responsive, mobile-ready websites",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\">download it</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-4a",
+          "_customCSS": ""
+        },
+        {
+          "_styles": {
+            ".display-1": {
+              "font-weight": "700"
+            },
+            ".lead": {
+              "color": "#fff",
+              "text-transform": "uppercase",
+              "margin-bottom": "0"
             },
             ".mbr-section-title": {
               "text-align": "center"
@@ -218,7 +260,7 @@
             "overlayOpacity": 0.9
           },
           "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
-          "title": "Comité de Prevención Integral del Colegio<br><br>",
+          "title": "Comité de Prevención,<br>Padres de familia<br><br>",
           "text": "<br><br>Bienvenidos al panel",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary\" href=\"nosotros.html#header1-2h\" data-toolbar=\"-mbrBtnMove\">Nosotros</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"eventoscap.html#header11-v\" data-toolbar=\"-mbrBtnMove\">Eventos</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"galeroacap.html#content5-13\" data-toolbar=\"-mbrBtnMove\">Galería</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"galeroacap.html#content5-13\" data-toolbar=\"-mbrBtnMove\">Blog</a> ",
           "alias": "colorm/components",
@@ -262,7 +304,7 @@
           },
           "title": "¿Dudas?",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in, doloribus hic aperiam maiores fugit.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Contáctanos</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"contactocap.html\" data-toolbar=\"-mbrBtnMove\">Contáctanos</a>",
           "alias": "colorm/components",
           "_tags": [
             "Tema"
@@ -334,16 +376,16 @@
             }
           },
           "_params": {
-            "logo": false,
+            "logo": true,
             "showBrand": false,
             "hideButtons": false,
             "sticky": true,
             "collapsed": true,
-            "transparent": true,
+            "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": 0.875,
             "fontName": {},
-            "fontColor": "#30cfde",
+            "fontColor": "#8e44ad",
             "fontHoverColor": "@primaryColor"
           },
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">Inicio</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\" aria-expanded=\"false\">Nosotros</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"eventoscap.html\" aria-expanded=\"false\">Eventos</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"galeroacap.html\" aria-expanded=\"false\">Galería</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">Blog</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"contactocap.html\">Contáctanos</a></li>",
@@ -442,7 +484,7 @@
           "title": "Regístrate a nuestro siguiente evento",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quaerat omnis amet accusantium accusamus quidems?",
           "text1": "or <a href=\"http://mobirise.com\">Check FAQ</a>.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Registrar</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">Registrar</a>",
           "alias": "colorm/components",
           "_tags": [
             "Tema"
@@ -968,16 +1010,16 @@
             }
           },
           "_params": {
-            "logo": false,
+            "logo": true,
             "showBrand": false,
             "hideButtons": false,
             "sticky": true,
             "collapsed": true,
-            "transparent": true,
+            "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": 0.875,
             "fontName": {},
-            "fontColor": "#30cfde",
+            "fontColor": "#8e44ad",
             "fontHoverColor": "@primaryColor"
           },
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">Inicio</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\" aria-expanded=\"false\">Nosotros</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"eventoscap.html\" aria-expanded=\"false\">Eventos</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"galeroacap.html\" aria-expanded=\"false\">Galería</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">Blog</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"contactocap.html\">Contáctanos</a></li>",
@@ -1095,16 +1137,16 @@
             }
           },
           "_params": {
-            "logo": false,
+            "logo": true,
             "showBrand": false,
             "hideButtons": false,
             "sticky": true,
             "collapsed": true,
-            "transparent": true,
+            "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": 0.875,
             "fontName": {},
-            "fontColor": "#30cfde",
+            "fontColor": "#8e44ad",
             "fontHoverColor": "@primaryColor"
           },
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">Inicio</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\" aria-expanded=\"false\">Nosotros</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"eventoscap.html\" aria-expanded=\"false\">Eventos</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"galeroacap.html\" aria-expanded=\"false\">Galería</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">Blog</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"contactocap.html\">Contáctanos</a></li>",
@@ -1361,16 +1403,16 @@
             }
           },
           "_params": {
-            "logo": false,
+            "logo": true,
             "showBrand": false,
             "hideButtons": false,
             "sticky": true,
             "collapsed": true,
-            "transparent": true,
+            "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": 0.875,
             "fontName": {},
-            "fontColor": "#30cfde",
+            "fontColor": "#8e44ad",
             "fontHoverColor": "@primaryColor"
           },
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">Inicio</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\" aria-expanded=\"false\">Nosotros</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"eventoscap.html\" aria-expanded=\"false\">Eventos</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"galeroacap.html\" aria-expanded=\"false\">Galería</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">Blog</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"contactocap.html\">Contáctanos</a></li>",
@@ -1575,16 +1617,16 @@
             }
           },
           "_params": {
-            "logo": false,
+            "logo": true,
             "showBrand": false,
             "hideButtons": false,
             "sticky": true,
             "collapsed": true,
-            "transparent": true,
+            "transparent": false,
             "bgColor": "#ffffff",
             "fontSize": 0.875,
             "fontName": {},
-            "fontColor": "#30cfde",
+            "fontColor": "#8e44ad",
             "fontHoverColor": "@primaryColor"
           },
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">Inicio</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nosotros.html\" aria-expanded=\"false\">Nosotros</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"eventoscap.html\" aria-expanded=\"false\">Eventos</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"galeroacap.html\" aria-expanded=\"false\">Galería</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">Blog</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"contactocap.html\">Contáctanos</a></li>",
