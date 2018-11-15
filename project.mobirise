@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "American School Foundation",
-    "currentPage": "cine.html",
+    "currentPage": "nosotros.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -1332,51 +1332,6 @@
             "I": {
               "color": "#5a2587",
               "font-size": "17px"
-            }
-          }
-        },
-        {
-          "_params": {
-            "showTitle": false,
-            "showSubtitle": false,
-            "showText": true,
-            "showButtons": false,
-            "bgCardImage": "@PROJECT_PATH@/assets/images/gal06-1200x900.jpg",
-            "paddingTop": 3,
-            "paddingBottom": "3",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/grass.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#ecf0f1",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
-            },
-            "overlay": true,
-            "overlayColor": "#233f5b",
-            "overlayOpacity": 0.8
-          },
-          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
-          "media": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/features/03.jpg",
-              "class": ""
-            }
-          },
-          "title": "Medardo Rivera Guzmán",
-          "subtitle": "Septiembre 25 de 2018",
-          "text": "<b>Los programas que el comité de prevención integral, eje padres de familia tienen programados para este ciclo escolar 2018-2019 son los siguientes:<br><br><i><a href=\"eventoscap.html#image2-38\">Familly Challenge - Octubre 13</a><br><a href=\"eventoscap.html#image2-3c\">Encendido del árbol de Navidad - Noviembre 30</a><br><a href=\"eventoscap.html#image2-3e\">Campamentos Papá-hijo - Febrero a Mayo 2019</a><br><a href=\"eventoscap.html#image2-35\">Cine bajo las estrellas - Marzo 29</a></i></b><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">learn more</a>",
-          "alias": "colorm/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "testimonials3",
-          "_anchor": "testimonials3-2k",
-          "_styles": {
-            ".mbr-section-text": {
-              "font-size": "16px"
             }
           }
         },
