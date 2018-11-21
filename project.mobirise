@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "American School Foundation",
-    "currentPage": "galeroacap.html",
+    "currentPage": "nuestrasactividades.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -1716,7 +1716,7 @@
               "color": "#5a2587"
             },
             ".mbr-section-text B": {
-              "color": "#ffffff"
+              "color": "#e67e22"
             }
           },
           "_params": {
@@ -1779,7 +1779,7 @@
           ],
           "_name": "features7",
           "_anchor": "features7-52",
-          "_customCSS": "p {\n    color: #fff;\n}"
+          "_customCSS": ""
         },
         {
           "_styles": {
