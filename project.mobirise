@@ -1637,7 +1637,7 @@
               "text-transform": "uppercase"
             },
             ".mbr-section-text B": {
-              "color": "#333333"
+              "color": "#000000"
             },
             ".mbr-section-title": {
               "color": "#5a2587"
@@ -1716,7 +1716,7 @@
               "color": "#5a2587"
             },
             ".mbr-section-text B": {
-              "color": "#e67e22"
+              "color": "#000000"
             }
           },
           "_params": {
@@ -1832,7 +1832,7 @@
           },
           "title1": "<b>Family Fun Run</b>",
           "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "<b>Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.</b>",
+          "caption1": "<b>Correr en familia es posible haciendo equipo, apoyándonos y animándonos los unos a los otros.</b><br>",
           "number1": "3",
           "title2": "Responsive",
           "subtitle2": "One of Bootstrap 4's big points",
